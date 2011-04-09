@@ -39,6 +39,10 @@ class Country < OpenStruct
   end
 end
 
+get '/' do
+  erb :index
+end
+
 get '/countries/:country' do
   @country = Country.find_by_slug params[:country]
   erb :country
