@@ -14,7 +14,10 @@
 #photoPanel a { color: #fff; }
 
 #tagcloud { color: #fff; }
-#tagcloud a { color: #B18002; font-weight: normal; text-decoration: none; }
+#tagcloud a { color: #F5F524; font-weight: normal; text-decoration: none; }
+#tagcloud.container a { color: #111; }
+
+#amazon { position: fixed; top: 80px; right: 10px; }
 
 #belgiums { position: fixed; top: 10px; right: 10px; text-align: right; background: #fff; padding: 5px;}
 #belgiums .score { display: block; float: right; }
