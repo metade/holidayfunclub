@@ -20,6 +20,17 @@ class Country < OpenStruct
     country
   end
   
+  def self.keywords
+    keywords = Hash.new(0)
+    $countries.each do |slug,country|
+      next unless country['wordle_summary']
+      country['wordle_summary'].each do |keyword,count|
+        keywords[keyword] += count
+      end
+    end
+    keywords
+  end
+  
   def wikipedia
     return @wikipedia if @wikipedia
     url = "http://dbpedialite.org/search.json?term=#{name}"
@@ -50,7 +61,7 @@ class Country < OpenStruct
         sizes = flickr.photos.getSizes(:photo_id => photo.id)
         largest = sizes.sort { |a,b| b['width'].to_i <=> a['width'].to_i }.first
         @poster_image = OpenStruct.new(photo.to_hash)
-        @poster_image.url = "http://www.flickr.com/photos/#{@poster_image.owner}/#{@poster_image.id}/"
+        @poster_image.url = "http://www.flickr.com/photos/#{@poster_image.owner}/#{photo.id}/"
         @poster_image.image_url = largest['source']
       else
         @poster_image = OpenStruct.new()
@@ -60,9 +71,9 @@ class Country < OpenStruct
   end
 end
 
-def tag_cloud(country)
+def tag_cloud(hash)
   tc = TagCloud.new
-  tc.wordcount = country.wordle_summary
+  tc.wordcount = hash
   tc.build
 end
 
@@ -71,6 +82,8 @@ get '/' do
 end
 
 get '/keywords' do
+  @keywords = Country.keywords
+  erb :keywords
 end
 
 get '/countries/:country' do |country|

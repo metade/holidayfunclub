@@ -35,7 +35,7 @@ class TagCloud
     ratio = font_ratio(@wordcount)
     @wordcount.each_key do |word|
       font_size = (9 + (@wordcount[word] * ratio))
-      cloud << %Q{<span#{" class=\"" + klass + "_span\"" unless klass.nil? }><a href="#"#{" class=\"" + klass + "\"" unless klass.nil? } style="font-size:#{font_size}pt;">#{word}</a></span> }
+      cloud << %Q{<span#{" class=\"" + klass + "_span\"" unless klass.nil? }><a href="/keywords/#{word}"#{" class=\"" + klass + "\"" unless klass.nil? } style="font-size:#{font_size}pt;">#{word}</a></span> }
     end
     cloud
   end
