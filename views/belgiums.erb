@@ -1,0 +1,25 @@
+<div id="panel">
+  <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
+  
+  <h1>By Belgiums</h1>
+</div>
+
+<div id="countries" class="container">
+  <div class="span-10">
+    <h2>Top Belgiums</h2>
+    <ul>
+      <% @top_belgiums.each do |country| %>
+        <li><a href="/countries/<%= country.slug %>"><%= country.name %></a></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="span-10">
+    <h2>Bottom Belgiums</h2>
+    <ul>
+      <% @bottom_belgiums.each do |country| %>
+        <li><a href="/countries/<%= country.slug %>"><%= country.name %></a></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+<%= erb :poster_image, :locals => { :poster_image => @poster_image } %>

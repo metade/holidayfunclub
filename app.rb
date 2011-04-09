@@ -11,7 +11,9 @@ require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
 configure do
   FlickRaw.api_key = ENV['flickr_api_key']
   $countries = JSON.parse(open('test.json').read)
+  $belgiums_max = $countries.values.map { |c| c['belgiums']['__average__'] || 0 }.max.ceil
 end
+p $belgiums_max
 
 def flickr_image(tag)
   photos = flickr.photos.search(
@@ -51,6 +53,11 @@ class Country < OpenStruct
     keywords
   end
   
+  def self.order_by_belgiums
+    $countries.values.sort { |a,b| (b['belgiums']['__average__'] || 0) <=> (a['belgiums']['__average__'] || 0) }.
+      map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }
+  end
+  
   def self.find_by_keyword(keyword)
     $countries.values.select do |country|
       next unless country['wordle_summary']
@@ -82,6 +89,7 @@ class Country < OpenStruct
 end
 
 def tag_cloud(hash)
+  return if hash.nil?
   tc = TagCloud.new
   tc.wordcount = hash
   tc.build
@@ -98,6 +106,13 @@ end
 get '/keywords' do
   @keywords = Country.keywords
   erb :keywords
+end
+
+get '/by/belgiums' do
+  countries = Country.order_by_belgiums
+  @top_belgiums = countries[0,10]
+  @bottom_belgiums = countries.reverse[0,10]
+  erb :belgiums
 end
 
 get '/keywords/:keyword' do |keyword|

@@ -15,4 +15,16 @@
     <%= tag_cloud(@country.wordle_summary) %>
   </div>
 </div>
+
+<% if @country.belgiums.any? %>
+<div id="belgiums">
+  <a href="/by/belgiums">
+    <span class="score" style="width: <%= $belgiums_max*16 %>px;">
+      <span class="bar" style="width: <%= (@country.belgiums['__average__'] / $belgiums_max)*100 %>%;">&nbsp;</span><br/>
+    </span><br/>
+    <%= @country.belgiums['__average__'].round(2) %> belgiums
+  </a>
+</div>
+<% end %>
+
 <%= erb :poster_image, :locals => { :poster_image => @country.poster_image } %>

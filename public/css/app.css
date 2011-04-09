@@ -15,3 +15,7 @@
 
 #tagcloud { color: #fff; }
 #tagcloud a { color: #B18002; font-weight: normal; text-decoration: none; }
+
+#belgiums { position: fixed; top: 10px; right: 10px; text-align: right; background: #fff; padding: 5px;}
+#belgiums .score { display: block; float: right; }
+#belgiums .score .bar { background: #fff url('/images/be.png') repeat-x; display: inline-block; }
