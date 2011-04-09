@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'ostruct'
 require 'json'
-require 'activesupport'
+require 'active_support/inflector'
 
 $countries = JSON.parse(open('test.json').read)
 class Country < OpenStruct
