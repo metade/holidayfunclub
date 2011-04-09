@@ -13,6 +13,26 @@ configure do
   $countries = JSON.parse(open('test.json').read)
 end
 
+def flickr_image(tag)
+  photos = flickr.photos.search(
+    :tags => name, 
+    :is_commons => true, 
+    # :content_type => 1,
+    # :sort => 'interestingness-desc',
+    :per_page => 10)
+  if photos.any?
+    photo = photos[(rand*10).to_i]
+    sizes = flickr.photos.getSizes(:photo_id => photo.id)
+    largest = sizes.sort { |a,b| b['width'].to_i <=> a['width'].to_i }.first
+    poster_image = OpenStruct.new(photo.to_hash)
+    poster_image.url = "http://www.flickr.com/photos/#{poster_image.owner}/#{photo.id}/"
+    poster_image.image_url = largest['source']
+    poster_image
+  else
+    OpenStruct.new()
+  end
+end
+
 class Country < OpenStruct
   def self.find_by_slug(slug)
     country = Country.new($countries[slug])
@@ -29,6 +49,13 @@ class Country < OpenStruct
       end
     end
     keywords
+  end
+  
+  def self.find_by_keyword(keyword)
+    $countries.values.select do |country|
+      next unless country['wordle_summary']
+      country['wordle_summary'].include? keyword
+    end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }
   end
   
   def wikipedia
@@ -49,25 +76,7 @@ class Country < OpenStruct
   end
   
   def poster_image
-    unless @poster_image
-      photos = flickr.photos.search(
-        :tags => name, 
-        :is_commons => true, 
-        # :content_type => 1,
-        # :sort => 'interestingness-desc',
-        :per_page => 10)
-      if photos.any?
-        photo = photos[(rand*10).to_i]
-        sizes = flickr.photos.getSizes(:photo_id => photo.id)
-        largest = sizes.sort { |a,b| b['width'].to_i <=> a['width'].to_i }.first
-        @poster_image = OpenStruct.new(photo.to_hash)
-        @poster_image.url = "http://www.flickr.com/photos/#{@poster_image.owner}/#{photo.id}/"
-        @poster_image.image_url = largest['source']
-      else
-        @poster_image = OpenStruct.new()
-      end
-    end
-    @poster_image
+    @poster_image ||= flickr_image(name)
   end
 end
 
@@ -84,6 +93,12 @@ end
 get '/keywords' do
   @keywords = Country.keywords
   erb :keywords
+end
+
+get '/keywords/:keyword' do |keyword|
+  @keyword = keyword
+  @countries = Country.find_by_keyword(keyword)
+  erb :keyword
 end
 
 get '/countries/:country' do |country|

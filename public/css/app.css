@@ -14,4 +14,4 @@
 #photoPanel a { color: #fff; }
 
 #tagcloud { color: #fff; }
-#tagcloud a { color: #B18002; font-weight: normal; }
+#tagcloud a { color: #B18002; font-weight: normal; text-decoration: none; }

@@ -1,19 +1,14 @@
 {
    "peru" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 15,
+         "__total__" : 73,
+         "crime" : 5,
+         "terrorism" : 50
       },
       "belgiums" : {
-         "average" : 1.68370839854959,
+         "__average__" : 1.68370839854959,
          "size_advice_summary" : 1.5150311968236,
          "size_advice_full" : 1.85238560027559
       },
@@ -267,19 +262,13 @@
    },
    "jordan" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 56,
+         "terrorism" : 45,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.08993385238426,
+         "__average__" : 1.08993385238426,
          "size_advice_summary" : 1.12790697674419,
          "size_advice_full" : 1.05196072802434
       },
@@ -396,19 +385,14 @@
    },
    "togo" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "fco_advice" : 30,
+         "__total__" : 70,
+         "crime" : 5,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 1.13369086298647,
+         "__average__" : 1.13369086298647,
          "size_advice_summary" : 1.28644356211004,
          "size_advice_full" : 0.980938163862893
       },
@@ -535,16 +519,7 @@
    },
    "gambia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "__total__" : 0
       },
       "belgiums" : {},
       "number_export_controls" : 0,
@@ -561,20 +536,15 @@
    },
    "algeria" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 13,
+         "fco_advice" : 40,
+         "__total__" : 153,
+         "crime" : 10,
+         "terrorism" : 75,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.63430205120658,
+         "__average__" : 1.63430205120658,
          "size_advice_summary" : 1.87663074305162,
          "size_advice_full" : 1.39197335936154
       },
@@ -781,19 +751,12 @@
    },
    "ireland" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 29,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.907634226032285,
+         "__average__" : 0.907634226032285,
          "size_advice_summary" : 0.978729438457175,
          "size_advice_full" : 0.836539013607395
       },
@@ -885,20 +848,14 @@
    },
    "gambia,-the" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 5,
+         "__total__" : 45,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.05915969627082,
+         "__average__" : 1.05915969627082,
          "size_advice_summary" : 1.14662507090187,
          "size_advice_full" : 0.971694321639777
       },
@@ -999,20 +956,13 @@
    },
    "mozambique" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 38,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 1.10276891084857,
+         "__average__" : 1.10276891084857,
          "size_advice_summary" : 1.00538854225752,
          "size_advice_full" : 1.20014927943963
       },
@@ -1179,19 +1129,13 @@
    },
    "qatar" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 15,
+         "unrest" : 5,
+         "__total__" : 60,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.997167556319542,
+         "__average__" : 0.997167556319542,
          "size_advice_summary" : 1.04537719795803,
          "size_advice_full" : 0.948957914681059
       },
@@ -1310,19 +1254,13 @@
    },
    "canada" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 66,
+         "fierce_creatures" : 5,
+         "terrorism" : 55
       },
       "belgiums" : {
-         "average" : 1.26290672158375,
+         "__average__" : 1.26290672158375,
          "size_advice_summary" : 1.39393079977311,
          "size_advice_full" : 1.13188264339438
       },
@@ -1436,20 +1374,13 @@
    },
    "djibouti" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "fco_advice" : 15,
+         "__total__" : 46,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.09596738714182,
+         "__average__" : 1.09596738714182,
          "size_advice_summary" : 1.24446965399887,
          "size_advice_full" : 0.947465120284779
       },
@@ -1559,19 +1490,14 @@
    },
    "kazakhstan" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 15,
+         "unrest" : 5,
+         "__total__" : 60,
+         "crime" : 15,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.45435558376849,
+         "__average__" : 1.45435558376849,
          "size_advice_summary" : 1.55388542257516,
          "size_advice_full" : 1.35482574496182
       },
@@ -1735,20 +1661,14 @@
    },
    "central-african-republic" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 7,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 8,
+         "fco_advice" : 50,
+         "__total__" : 103,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.2902251146846,
+         "__average__" : 1.2902251146846,
          "size_advice_summary" : 1.4849688031764,
          "size_advice_full" : 1.0954814261928
       },
@@ -1875,19 +1795,12 @@
    },
    "new-caledonia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.755420636783401,
+         "__average__" : 0.755420636783401,
          "size_advice_summary" : 0.984401588201929,
          "size_advice_full" : 0.526439685364873
       },
@@ -1950,19 +1863,14 @@
    },
    "tanzania" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 19,
+         "__total__" : 74,
+         "crime" : 5,
+         "terrorism" : 40,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.53827303150236,
+         "__average__" : 1.53827303150236,
          "size_advice_summary" : 1.59529211571185,
          "size_advice_full" : 1.48125394729287
       },
@@ -2168,20 +2076,13 @@
    },
    "senegal" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 10,
+         "__total__" : 43,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 0.961375386074675,
+         "__average__" : 0.961375386074675,
          "size_advice_summary" : 1.0068065796937,
          "size_advice_full" : 0.915944192455647
       },
@@ -2287,19 +2188,14 @@
    },
    "dominican-republic" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 4,
+         "__total__" : 64,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.34134294210763,
+         "__average__" : 1.34134294210763,
          "size_advice_summary" : 1.44441293250142,
          "size_advice_full" : 1.23827295171384
       },
@@ -2438,20 +2334,15 @@
    },
    "israel" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 7,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 40,
+         "unrest" : 16,
+         "__total__" : 156,
+         "crime" : 20,
+         "terrorism" : 65,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 2.36850774230366,
+         "__average__" : 2.36850774230366,
          "size_advice_summary" : 2.59812819058423,
          "size_advice_full" : 2.13888729402308
       },
@@ -2793,19 +2684,13 @@
    },
    "portugal" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 44,
+         "crime" : 15,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.49973582671705,
+         "__average__" : 1.49973582671705,
          "size_advice_summary" : 1.70986954055587,
          "size_advice_full" : 1.28960211287822
       },
@@ -2973,19 +2858,14 @@
    },
    "kuwait" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 12,
+         "fco_advice" : 10,
+         "__total__" : 117,
+         "terrorism" : 70,
+         "war" : 25
       },
       "belgiums" : {
-         "average" : 1.32683016713481,
+         "__average__" : 1.32683016713481,
          "size_advice_summary" : 1.49858196256381,
          "size_advice_full" : 1.1550783717058
       },
@@ -3138,19 +3018,14 @@
    },
    "mongolia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 8,
+         "fco_advice" : 20,
+         "__total__" : 73,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.958636425231918,
+         "__average__" : 0.958636425231918,
          "size_advice_summary" : 0.985252410663642,
          "size_advice_full" : 0.932020439800195
       },
@@ -3264,19 +3139,13 @@
    },
    "korea" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 51,
+         "terrorism" : 40,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.33756701543804,
+         "__average__" : 1.33756701543804,
          "size_advice_summary" : 1.46568349404424,
          "size_advice_full" : 1.20945053683183
       },
@@ -3409,19 +3278,14 @@
    },
    "hungary" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 6,
+         "__total__" : 71,
+         "crime" : 5,
+         "terrorism" : 55
       },
       "belgiums" : {
-         "average" : 1.13387049300286,
+         "__average__" : 1.13387049300286,
          "size_advice_summary" : 1.17725467952354,
          "size_advice_full" : 1.09048630648217
       },
@@ -3556,20 +3420,13 @@
    },
    "rwanda" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 10,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 50,
+         "unrest" : 13,
+         "__total__" : 103,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.02006359731404,
+         "__average__" : 1.02006359731404,
          "size_advice_summary" : 1.19767441860465,
          "size_advice_full" : 0.842452776023425
       },
@@ -3687,19 +3544,12 @@
    },
    "french-polynesia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.870289989917662,
+         "__average__" : 0.870289989917662,
          "size_advice_summary" : 1.15173000567215,
          "size_advice_full" : 0.588849974163174
       },
@@ -3767,19 +3617,13 @@
    },
    "latvia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.941159156574748,
+         "__average__" : 0.941159156574748,
          "size_advice_summary" : 0.876347135564379,
          "size_advice_full" : 1.00597117758512
       },
@@ -3891,20 +3735,15 @@
    },
    "kosovo" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 53,
+         "crime" : 5,
+         "terrorism" : 25,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.42768464195682,
+         "__average__" : 1.42768464195682,
          "size_advice_summary" : 1.64804310833806,
          "size_advice_full" : 1.20732617557559
       },
@@ -4035,20 +3874,14 @@
    },
    "guinea" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "fco_advice" : 15,
+         "__total__" : 75,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.22682454448651,
+         "__average__" : 1.22682454448651,
          "size_advice_summary" : 1.42626205331821,
          "size_advice_full" : 1.02738703565482
       },
@@ -4161,19 +3994,14 @@
    },
    "morocco" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 15,
+         "unrest" : 10,
+         "__total__" : 85,
+         "crime" : 15,
+         "terrorism" : 45
       },
       "belgiums" : {
-         "average" : 1.34771885918306,
+         "__average__" : 1.34771885918306,
          "size_advice_summary" : 1.54254112308565,
          "size_advice_full" : 1.15289659528047
       },
@@ -4304,19 +4132,11 @@
    },
    "macao" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "__total__" : 40,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.815898048636543,
+         "__average__" : 0.815898048636543,
          "size_advice_summary" : 1.03289846851957,
          "size_advice_full" : 0.598897628753517
       },
@@ -4382,19 +4202,13 @@
    },
    "comoros" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 10,
+         "__total__" : 53,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.12018098088492,
+         "__average__" : 1.12018098088492,
          "size_advice_summary" : 1.247022121384,
          "size_advice_full" : 0.99333984038583
       },
@@ -4524,20 +4338,16 @@
    },
    "russian-federation" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 9,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 15,
+         "fco_advice" : 50,
+         "__total__" : 165,
+         "crime" : 5,
+         "disease" : 10,
+         "terrorism" : 75,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.46269002409972,
+         "__average__" : 1.46269002409972,
          "size_advice_summary" : 1.23312535450936,
          "size_advice_full" : 1.69225469369007
       },
@@ -4768,20 +4578,14 @@
    },
    "ecuador" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 7,
+         "fco_advice" : 15,
+         "__total__" : 67,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.76718452619833,
+         "__average__" : 1.76718452619833,
          "size_advice_summary" : 1.4126488939308,
          "size_advice_full" : 2.12172015846587
       },
@@ -5078,19 +4882,14 @@
    },
    "croatia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 38,
+         "crime" : 5,
+         "terrorism" : 25,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.05964168407712,
+         "__average__" : 1.05964168407712,
          "size_advice_summary" : 0.931650595575723,
          "size_advice_full" : 1.18763277257852
       },
@@ -5238,20 +5037,14 @@
    },
    "chad" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 35,
+         "__total__" : 79,
+         "crime" : 15,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.09334133519936,
+         "__average__" : 1.09334133519936,
          "size_advice_summary" : 1.2138400453772,
          "size_advice_full" : 0.972842625021531
       },
@@ -5375,19 +5168,13 @@
    },
    "trinidad-and-tobago" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 7,
+         "__total__" : 52,
+         "crime" : 10,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 0.979183858514955,
+         "__average__" : 0.979183858514955,
          "size_advice_summary" : 1.10380034032898,
          "size_advice_full" : 0.854567376700924
       },
@@ -5473,19 +5260,14 @@
    },
    "samoa" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 10,
+         "__total__" : 68,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.980503422259975,
+         "__average__" : 0.980503422259975,
          "size_advice_summary" : 1.14152013613159,
          "size_advice_full" : 0.819486708388356
       },
@@ -5580,19 +5362,12 @@
    },
    "wallis-and-futuna" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.676239753240481,
+         "__average__" : 0.676239753240481,
          "size_advice_summary" : 0.933635847986387,
          "size_advice_full" : 0.418843658494574
       },
@@ -5645,19 +5420,13 @@
    },
    "estonia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 63,
+         "crime" : 20,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.00504651003214,
+         "__average__" : 1.00504651003214,
          "size_advice_summary" : 1.09018718094158,
          "size_advice_full" : 0.919905839122696
       },
@@ -5752,16 +5521,7 @@
    },
    "south-korea" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "__total__" : 0
       },
       "belgiums" : {},
       "number_export_controls" : 0,
@@ -5778,19 +5538,14 @@
    },
    "nicaragua" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 59,
+         "crime" : 5,
+         "terrorism" : 40,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.23712682216223,
+         "__average__" : 1.23712682216223,
          "size_advice_summary" : 1.23908111174135,
          "size_advice_full" : 1.23517253258311
       },
@@ -5939,19 +5694,13 @@
    },
    "aruba-dutch-caribbean" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.00314690815732,
+         "__average__" : 1.00314690815732,
          "size_advice_summary" : 1.23652864435621,
          "size_advice_full" : 0.769765171958431
       },
@@ -6040,19 +5789,13 @@
    },
    "st-vincent-and-the-grenadines" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 63,
+         "crime" : 20,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.13656152374062,
+         "__average__" : 1.13656152374062,
          "size_advice_summary" : 1.45547362450369,
          "size_advice_full" : 0.817649422977551
       },
@@ -6139,19 +5882,12 @@
    },
    "american-samoa" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.72720187906203,
+         "__average__" : 0.72720187906203,
          "size_advice_summary" : 0.937322745320476,
          "size_advice_full" : 0.517081012803583
       },
@@ -6214,20 +5950,14 @@
    },
    "colombia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 12,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 16,
+         "fco_advice" : 70,
+         "__total__" : 196,
+         "terrorism" : 55,
+         "war" : 55
       },
       "belgiums" : {
-         "average" : 1.92778568842074,
+         "__average__" : 1.92778568842074,
          "size_advice_summary" : 1.82870107770845,
          "size_advice_full" : 2.02687029913303
       },
@@ -6531,19 +6261,13 @@
    },
    "panama" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.12788356939717,
+         "__average__" : 1.12788356939717,
          "size_advice_summary" : 1.08593306863301,
          "size_advice_full" : 1.16983407016134
       },
@@ -6683,19 +6407,12 @@
    },
    "nauru" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.796472507106145,
+         "__average__" : 0.796472507106145,
          "size_advice_summary" : 0.942144072603517,
          "size_advice_full" : 0.650800941608773
       },
@@ -6767,20 +6484,15 @@
    },
    "congo-(democratic-republic)" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 14,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 85,
+         "unrest" : 11,
+         "__total__" : 151,
+         "crime" : 5,
+         "terrorism" : 40,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.85311962211114,
+         "__average__" : 1.85311962211114,
          "size_advice_summary" : 2.07714123652864,
          "size_advice_full" : 1.62909800769363
       },
@@ -7026,20 +6738,15 @@
    },
    "somalia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 21,
+         "fco_advice" : 20,
+         "__total__" : 126,
+         "crime" : 5,
+         "terrorism" : 65,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.20188264437139,
+         "__average__" : 1.20188264437139,
          "size_advice_summary" : 1.45830969937606,
          "size_advice_full" : 0.945455589366711
       },
@@ -7173,19 +6880,12 @@
    },
    "martinique" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.853997417978295,
+         "__average__" : 0.853997417978295,
          "size_advice_summary" : 1.07912648893931,
          "size_advice_full" : 0.628868347017282
       },
@@ -7243,20 +6943,15 @@
    },
    "japan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 1,
+         "fco_advice" : 10,
+         "__total__" : 261,
+         "crime" : 10,
+         "terrorism" : 20,
+         "disease" : 220
       },
       "belgiums" : {
-         "average" : 3.85341632142933,
+         "__average__" : 3.85341632142933,
          "size_advice_summary" : 5.4276800907544,
          "size_advice_full" : 2.27915255210427
       },
@@ -7618,20 +7313,15 @@
    },
    "chile" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 83,
+         "crime" : 20,
+         "terrorism" : 40,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.26407405208549,
+         "__average__" : 1.26407405208549,
          "size_advice_summary" : 1.47532614861032,
          "size_advice_full" : 1.05282195556066
       },
@@ -7751,20 +7441,13 @@
    },
    "venezuela" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 8,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 50,
+         "__total__" : 78,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.72760306877728,
+         "__average__" : 1.72760306877728,
          "size_advice_summary" : 1.51020986954056,
          "size_advice_full" : 1.94499626801401
       },
@@ -8042,19 +7725,14 @@
    },
    "taiwan" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 53,
+         "disease" : 20,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.0054173394006,
+         "__average__" : 1.0054173394006,
          "size_advice_summary" : 1.18916619398752,
          "size_advice_full" : 0.821668484813688
       },
@@ -8145,19 +7823,12 @@
    },
    "mayotte" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.693803804127841,
+         "__average__" : 0.693803804127841,
          "size_advice_summary" : 0.901588201928531,
          "size_advice_full" : 0.486019406327152
       },
@@ -8214,19 +7885,13 @@
    },
    "lesotho" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 58,
+         "terrorism" : 50
       },
       "belgiums" : {
-         "average" : 0.901766065199077,
+         "__average__" : 0.901766065199077,
          "size_advice_summary" : 1.08394781622235,
          "size_advice_full" : 0.719584314175805
       },
@@ -8307,20 +7972,15 @@
    },
    "ethiopia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 19,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 7,
+         "fco_advice" : 100,
+         "__total__" : 202,
+         "crime" : 5,
+         "terrorism" : 70,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.57557451562424,
+         "__average__" : 1.57557451562424,
          "size_advice_summary" : 1.72036301758366,
          "size_advice_full" : 1.43078601366481
       },
@@ -8543,19 +8203,13 @@
    },
    "france" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 46,
+         "crime" : 5,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 1.21740564787449,
+         "__average__" : 1.21740564787449,
          "size_advice_summary" : 1.28587634713556,
          "size_advice_full" : 1.14893494861342
       },
@@ -8692,20 +8346,13 @@
    },
    "bahrain" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 7,
+         "fco_advice" : 15,
+         "__total__" : 62,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.54536419568562,
+         "__average__" : 1.54536419568562,
          "size_advice_summary" : 1.91917186613727,
          "size_advice_full" : 1.17155652523397
       },
@@ -8890,19 +8537,13 @@
    },
    "grenada" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.894821948005175,
+         "__average__" : 0.894821948005175,
          "size_advice_summary" : 1.02240499149178,
          "size_advice_full" : 0.767238904518574
       },
@@ -8986,20 +8627,14 @@
    },
    "argentina" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 20,
+         "__total__" : 89,
+         "crime" : 25,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.30879887303435,
+         "__average__" : 1.30879887303435,
          "size_advice_summary" : 1.56948383437323,
          "size_advice_full" : 1.04811391169547
       },
@@ -9114,19 +8749,12 @@
    },
    "luxembourg" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.872934417645235,
+         "__average__" : 0.872934417645235,
          "size_advice_summary" : 1.05728871242201,
          "size_advice_full" : 0.688580122868462
       },
@@ -9191,19 +8819,13 @@
    },
    "belize" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.02344514071781,
+         "__average__" : 1.02344514071781,
          "size_advice_summary" : 1.16108905275099,
          "size_advice_full" : 0.885801228684619
       },
@@ -9298,20 +8920,14 @@
    },
    "philippines" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 10,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 9,
+         "fco_advice" : 55,
+         "__total__" : 169,
+         "crime" : 5,
+         "terrorism" : 100
       },
       "belgiums" : {
-         "average" : 1.68577503525269,
+         "__average__" : 1.68577503525269,
          "size_advice_summary" : 1.71695972773681,
          "size_advice_full" : 1.65459034276856
       },
@@ -9544,19 +9160,13 @@
    },
    "iceland" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.00362708850934,
+         "__average__" : 1.00362708850934,
          "size_advice_summary" : 1.14861032331254,
          "size_advice_full" : 0.858643853706149
       },
@@ -9653,20 +9263,14 @@
    },
    "kyrgyzstan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 25,
+         "__total__" : 78,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.43336895538034,
+         "__average__" : 1.43336895538034,
          "size_advice_summary" : 1.61514463981849,
          "size_advice_full" : 1.25159327094218
       },
@@ -9830,19 +9434,14 @@
    },
    "st-lucia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 78,
+         "crime" : 30,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.02096433645211,
+         "__average__" : 1.02096433645211,
          "size_advice_summary" : 1.1724333522405,
          "size_advice_full" : 0.869495320663719
       },
@@ -9938,20 +9537,13 @@
    },
    "libya" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 1,
+         "fco_advice" : 35,
+         "__total__" : 61,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.58284179261556,
+         "__average__" : 1.58284179261556,
          "size_advice_summary" : 2.02013613159387,
          "size_advice_full" : 1.14554745363725
       },
@@ -10130,19 +9722,13 @@
    },
    "cayman-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.963161769665127,
+         "__average__" : 0.963161769665127,
          "size_advice_summary" : 1.07146908678389,
          "size_advice_full" : 0.854854452546363
       },
@@ -10230,19 +9816,14 @@
    },
    "singapore" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 4,
+         "__total__" : 54,
+         "crime" : 10,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 1.06167305099682,
+         "__average__" : 1.06167305099682,
          "size_advice_summary" : 1.15343165059558,
          "size_advice_full" : 0.969914451398059
       },
@@ -10345,19 +9926,14 @@
    },
    "greece" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 8,
+         "__total__" : 43,
+         "crime" : 5,
+         "terrorism" : 25,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.12441934717292,
+         "__average__" : 1.12441934717292,
          "size_advice_summary" : 1.16420873511061,
          "size_advice_full" : 1.08462995923523
       },
@@ -10484,19 +10060,13 @@
    },
    "poland" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.11074626497716,
+         "__average__" : 1.11074626497716,
          "size_advice_summary" : 1.14208735110607,
          "size_advice_full" : 1.07940517884825
       },
@@ -10636,19 +10206,13 @@
    },
    "british-virgin-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.06172507636983,
+         "__average__" : 1.06172507636983,
          "size_advice_summary" : 1.14492342597845,
          "size_advice_full" : 0.97852672676121
       },
@@ -10759,20 +10323,14 @@
    },
    "guinea-bissau" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 30,
+         "__total__" : 68,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.05863979263321,
+         "__average__" : 1.05863979263321,
          "size_advice_summary" : 1.29268292682927,
          "size_advice_full" : 0.824596658437159
       },
@@ -10882,19 +10440,14 @@
    },
    "equatorial-guinea" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 6,
+         "__total__" : 71,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.13061296375898,
+         "__average__" : 1.13061296375898,
          "size_advice_summary" : 1.32501418037436,
          "size_advice_full" : 0.936211747143595
       },
@@ -11011,19 +10564,12 @@
    },
    "finland" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.76578548331539,
+         "__average__" : 0.76578548331539,
          "size_advice_summary" : 0.880884855360181,
          "size_advice_full" : 0.650686111270598
       },
@@ -11096,19 +10642,13 @@
    },
    "costa-rica" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 66,
+         "crime" : 20,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.22999058560574,
+         "__average__" : 1.22999058560574,
          "size_advice_summary" : 1.22773681225184,
          "size_advice_full" : 1.23224435895964
       },
@@ -11255,20 +10795,15 @@
    },
    "niger" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 11,
+         "fco_advice" : 30,
+         "__total__" : 106,
+         "crime" : 10,
+         "terrorism" : 50,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.35675127810628,
+         "__average__" : 1.35675127810628,
          "size_advice_summary" : 1.32359614293817,
          "size_advice_full" : 1.38990641327439
       },
@@ -11461,19 +10996,13 @@
    },
    "sweden" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 33,
+         "terrorism" : 25,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 0.85614917600765,
+         "__average__" : 0.85614917600765,
          "size_advice_summary" : 1.01361315938741,
          "size_advice_full" : 0.698685192627892
       },
@@ -11552,20 +11081,14 @@
    },
    "el-salvador" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 16,
+         "__total__" : 81,
+         "terrorism" : 40,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.27086231298588,
+         "__average__" : 1.27086231298588,
          "size_advice_summary" : 1.18207600680658,
          "size_advice_full" : 1.35964861916518
       },
@@ -11740,20 +11263,13 @@
    },
    "burkina-faso" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "fco_advice" : 40,
+         "__total__" : 70,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.28068690980715,
+         "__average__" : 1.28068690980715,
          "size_advice_summary" : 1.42512762336926,
          "size_advice_full" : 1.13624619624505
       },
@@ -11900,19 +11416,14 @@
    },
    "malawi" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.905001636316036,
+         "__average__" : 0.905001636316036,
          "size_advice_summary" : 0.925694838343732,
          "size_advice_full" : 0.884308434288339
       },
@@ -12017,19 +11528,12 @@
    },
    "hong-kong" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 2,
+         "__total__" : 42,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.918096463411215,
+         "__average__" : 0.918096463411215,
          "size_advice_summary" : 1.04707884288145,
          "size_advice_full" : 0.789114083940977
       },
@@ -12106,20 +11610,14 @@
    },
    "ghana" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 4,
+         "__total__" : 79,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.28513448485648,
+         "__average__" : 1.28513448485648,
          "size_advice_summary" : 1.05927396483267,
          "size_advice_full" : 1.51099500488029
       },
@@ -12299,20 +11797,15 @@
    },
    "mexico" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 16,
+         "fco_advice" : 30,
+         "__total__" : 171,
+         "crime" : 70,
+         "terrorism" : 50,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 2.11320528209134,
+         "__average__" : 2.11320528209134,
          "size_advice_summary" : 1.82444696539989,
          "size_advice_full" : 2.4019635987828
       },
@@ -12650,20 +12143,14 @@
    },
    "malaysia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 8,
+         "__total__" : 118,
+         "crime" : 5,
+         "terrorism" : 95
       },
       "belgiums" : {
-         "average" : 1.47464432312319,
+         "__average__" : 1.47464432312319,
          "size_advice_summary" : 1.56920022688599,
          "size_advice_full" : 1.3800884193604
       },
@@ -12844,19 +12331,13 @@
    },
    "czech-republic" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 63,
+         "crime" : 20,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.13927014866165,
+         "__average__" : 1.13927014866165,
          "size_advice_summary" : 0.960862166761203,
          "size_advice_full" : 1.31767813056209
       },
@@ -13031,19 +12512,12 @@
    },
    "cyprus" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.23036359694603,
+         "__average__" : 1.23036359694603,
          "size_advice_summary" : 1.218377765173,
          "size_advice_full" : 1.24234942871907
       },
@@ -13205,19 +12679,13 @@
    },
    "ukraine" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 54,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.04639375257827,
+         "__average__" : 1.04639375257827,
          "size_advice_summary" : 1.02779353374929,
          "size_advice_full" : 1.06499397140725
       },
@@ -13346,19 +12814,14 @@
    },
    "swaziland" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 5,
+         "terrorism" : 45
       },
       "belgiums" : {
-         "average" : 1.08445177843893,
+         "__average__" : 1.08445177843893,
          "size_advice_summary" : 1.26857629041407,
          "size_advice_full" : 0.9003272664638
       },
@@ -13458,19 +12921,12 @@
    },
    "denmark" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.806984970545497,
+         "__average__" : 0.806984970545497,
          "size_advice_summary" : 0.781622234826999,
          "size_advice_full" : 0.832347706263995
       },
@@ -13563,19 +13019,13 @@
    },
    "bermuda" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 53,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.16035202663334,
+         "__average__" : 1.16035202663334,
          "size_advice_summary" : 1.44271128757799,
          "size_advice_full" : 0.877992765688695
       },
@@ -13668,19 +13118,13 @@
    },
    "seychelles" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 54,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.989632010777247,
+         "__average__" : 0.989632010777247,
          "size_advice_summary" : 1.20731707317073,
          "size_advice_full" : 0.771946948383763
       },
@@ -13773,19 +13217,12 @@
    },
    "pitcairn" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.91232483040624,
+         "__average__" : 0.91232483040624,
          "size_advice_summary" : 1.1505955757232,
          "size_advice_full" : 0.674054085089281
       },
@@ -13868,19 +13305,12 @@
    },
    "austria" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.13326702310099,
+         "__average__" : 1.13326702310099,
          "size_advice_summary" : 1.23369256948383,
          "size_advice_full" : 1.03284147671815
       },
@@ -14007,19 +13437,13 @@
    },
    "cape-verde" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 48,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.802069264839305,
+         "__average__" : 0.802069264839305,
          "size_advice_summary" : 1.05501985252411,
          "size_advice_full" : 0.549118677154504
       },
@@ -14082,19 +13506,12 @@
    },
    "gibraltar" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.776267195607033,
+         "__average__" : 0.776267195607033,
          "size_advice_summary" : 0.922575155984118,
          "size_advice_full" : 0.629959235229948
       },
@@ -14163,20 +13580,14 @@
    },
    "moldova" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 4,
+         "__total__" : 74,
+         "crime" : 5,
+         "terrorism" : 45
       },
       "belgiums" : {
-         "average" : 1.25448054073561,
+         "__average__" : 1.25448054073561,
          "size_advice_summary" : 1.43391945547362,
          "size_advice_full" : 1.07504162599759
       },
@@ -14314,19 +13725,13 @@
    },
    "malta" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.824497036768277,
+         "__average__" : 0.824497036768277,
          "size_advice_summary" : 1.02098695405559,
          "size_advice_full" : 0.628007119480967
       },
@@ -14391,20 +13796,13 @@
    },
    "albania" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 20,
+         "__total__" : 48,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.17105981725953,
+         "__average__" : 1.17105981725953,
          "size_advice_summary" : 1.34883720930233,
          "size_advice_full" : 0.993282425216742
       },
@@ -14515,20 +13913,14 @@
    },
    "haiti" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "fco_advice" : 50,
+         "__total__" : 111,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.62907534938173,
+         "__average__" : 1.62907534938173,
          "size_advice_summary" : 1.86755530346001,
          "size_advice_full" : 1.39059539530344
       },
@@ -14729,20 +14121,13 @@
    },
    "ivory-coast-(cote-d'ivoire)" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 30,
+         "__total__" : 59,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.34280468411382,
+         "__average__" : 1.34280468411382,
          "size_advice_summary" : 1.50113442994895,
          "size_advice_full" : 1.18447493827869
       },
@@ -14903,19 +14288,12 @@
    },
    "andorra" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.20078938692812,
+         "__average__" : 1.20078938692812,
          "size_advice_summary" : 1.55728871242201,
          "size_advice_full" : 0.844290061434231
       },
@@ -15039,20 +14417,14 @@
    },
    "honduras" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 15,
+         "__total__" : 80,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.63617585207872,
+         "__average__" : 1.63617585207872,
          "size_advice_summary" : 1.70164492342598,
          "size_advice_full" : 1.57070678073147
       },
@@ -15282,19 +14654,14 @@
    },
    "belarus" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 15,
+         "unrest" : 3,
+         "__total__" : 68,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.09066960839891,
+         "__average__" : 1.09066960839891,
          "size_advice_summary" : 1.20476460578559,
          "size_advice_full" : 0.976574611012229
       },
@@ -15418,20 +14785,14 @@
    },
    "turkmenistan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 53,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.11402340754241,
+         "__average__" : 1.11402340754241,
          "size_advice_summary" : 1.06154282473057,
          "size_advice_full" : 1.16650399035425
       },
@@ -15561,19 +14922,16 @@
    },
    "sri-lanka" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 10,
+         "__total__" : 125,
+         "crime" : 5,
+         "fierce_creatures" : 25,
+         "terrorism" : 60,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.69783479353385,
+         "__average__" : 1.69783479353385,
          "size_advice_summary" : 1.93250141803744,
          "size_advice_full" : 1.46316816903026
       },
@@ -15764,20 +15122,15 @@
    },
    "eritrea" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 8,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "fco_advice" : 40,
+         "__total__" : 85,
+         "crime" : 5,
+         "terrorism" : 30,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.22387464884502,
+         "__average__" : 1.22387464884502,
          "size_advice_summary" : 1.34061259217243,
          "size_advice_full" : 1.1071367055176
       },
@@ -15926,19 +15279,13 @@
    },
    "new-zealand" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.63599289211279,
+         "__average__" : 1.63599289211279,
          "size_advice_summary" : 1.90527509926262,
          "size_advice_full" : 1.36671068496297
       },
@@ -16146,20 +15493,15 @@
    },
    "india" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 17,
+         "fco_advice" : 30,
+         "__total__" : 177,
+         "crime" : 5,
+         "terrorism" : 60,
+         "war" : 65
       },
       "belgiums" : {
-         "average" : 1.76024066953838,
+         "__average__" : 1.76024066953838,
          "size_advice_summary" : 1.23369256948383,
          "size_advice_full" : 2.28678876959293
       },
@@ -16471,20 +15813,15 @@
    },
    "thailand" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 16,
+         "fco_advice" : 50,
+         "__total__" : 136,
+         "crime" : 5,
+         "terrorism" : 35,
+         "war" : 30
       },
       "belgiums" : {
-         "average" : 2.14062795390542,
+         "__average__" : 2.14062795390542,
          "size_advice_summary" : 2.17073170731707,
          "size_advice_full" : 2.11052420049377
       },
@@ -16802,19 +16139,12 @@
    },
    "st-helena" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.91986419439923,
+         "__average__" : 0.91986419439923,
          "size_advice_summary" : 1.04906409529212,
          "size_advice_full" : 0.790664293506344
       },
@@ -16906,20 +16236,14 @@
    },
    "turkey" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 20,
+         "fco_advice" : 25,
+         "__total__" : 160,
+         "terrorism" : 100,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.34499314486329,
+         "__average__" : 1.34499314486329,
          "size_advice_summary" : 1.26999432785026,
          "size_advice_full" : 1.41999196187633
       },
@@ -17117,19 +16441,13 @@
    },
    "montenegro" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 38,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.05827794354431,
+         "__average__" : 1.05827794354431,
          "size_advice_summary" : 0.990357345433919,
          "size_advice_full" : 1.12619854165471
       },
@@ -17256,19 +16574,13 @@
    },
    "united-states" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 2,
+         "__total__" : 52,
+         "terrorism" : 45,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.90076269196833,
+         "__average__" : 1.90076269196833,
          "size_advice_summary" : 1.67526942711288,
          "size_advice_full" : 2.12625595682379
       },
@@ -17538,19 +16850,14 @@
    },
    "australia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 76,
+         "crime" : 5,
+         "fierce_creatures" : 5,
+         "terrorism" : 60
       },
       "belgiums" : {
-         "average" : 1.78804169363872,
+         "__average__" : 1.78804169363872,
          "size_advice_summary" : 1.66364152013613,
          "size_advice_full" : 1.9124418671413
       },
@@ -17809,19 +17116,13 @@
    },
    "sao-tome-and-principe" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 3,
+         "__total__" : 53,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.862170245844068,
+         "__average__" : 0.862170245844068,
          "size_advice_summary" : 1.02892796369824,
          "size_advice_full" : 0.695412527989895
       },
@@ -17896,19 +17197,13 @@
    },
    "bulgaria" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 33,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.26113986175613,
+         "__average__" : 1.26113986175613,
          "size_advice_summary" : 1.21809415768576,
          "size_advice_full" : 1.30418556582649
       },
@@ -18067,19 +17362,12 @@
    },
    "guadeloupe" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.900149321776395,
+         "__average__" : 0.900149321776395,
          "size_advice_summary" : 1.19342030629609,
          "size_advice_full" : 0.606878337256703
       },
@@ -18144,19 +17432,13 @@
    },
    "antigua-and-barbuda" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.00598260851215,
+         "__average__" : 1.00598260851215,
          "size_advice_summary" : 1.22348269994328,
          "size_advice_full" : 0.788482517081013
       },
@@ -18246,19 +17528,12 @@
    },
    "tristan-da-cunha" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.986941346415351,
+         "__average__" : 0.986941346415351,
          "size_advice_summary" : 1.29523539421441,
          "size_advice_full" : 0.678647298616294
       },
@@ -18333,19 +17608,15 @@
    },
    "serbia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 25,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.4409104769201,
+         "__average__" : 1.4409104769201,
          "size_advice_summary" : 1.44753261486103,
          "size_advice_full" : 1.43428833897916
       },
@@ -18508,19 +17779,12 @@
    },
    "ascension-island" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.968116156521111,
+         "__average__" : 0.968116156521111,
          "size_advice_summary" : 1.20958593306863,
          "size_advice_full" : 0.726646379973589
       },
@@ -18609,20 +17873,14 @@
    },
    "burundi" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 9,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 45,
+         "__total__" : 88,
+         "terrorism" : 35,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.24610537569142,
+         "__average__" : 1.24610537569142,
          "size_advice_summary" : 1.54537719795803,
          "size_advice_full" : 0.946833553424815
       },
@@ -18743,19 +18001,14 @@
    },
    "spain" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 81,
+         "crime" : 5,
+         "terrorism" : 50,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.88226445589716,
+         "__average__" : 1.88226445589716,
          "size_advice_summary" : 1.93051616562677,
          "size_advice_full" : 1.83401274616754
       },
@@ -19007,19 +18260,14 @@
    },
    "italy" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 7,
+         "__total__" : 112,
+         "crime" : 10,
+         "terrorism" : 60,
+         "war" : 35
       },
       "belgiums" : {
-         "average" : 1.50991099639222,
+         "__average__" : 1.50991099639222,
          "size_advice_summary" : 1.43079977311401,
          "size_advice_full" : 1.58902221967044
       },
@@ -19213,19 +18461,12 @@
    },
    "slovenia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.01824292908419,
+         "__average__" : 1.01824292908419,
          "size_advice_summary" : 1.11514463981849,
          "size_advice_full" : 0.921341218349888
       },
@@ -19322,20 +18563,14 @@
    },
    "armenia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 15,
+         "__total__" : 63,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.09948555617697,
+         "__average__" : 1.09948555617697,
          "size_advice_summary" : 1.16676120249575,
          "size_advice_full" : 1.03220990985818
       },
@@ -19464,20 +18699,14 @@
    },
    "macedonia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 4,
+         "__total__" : 39,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.34035228619029,
+         "__average__" : 1.34035228619029,
          "size_advice_summary" : 1.36698808848554,
          "size_advice_full" : 1.31371648389505
       },
@@ -19646,19 +18875,12 @@
    },
    "british-antarctic-territory" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.915481443453174,
+         "__average__" : 0.915481443453174,
          "size_advice_summary" : 1.26347135564379,
          "size_advice_full" : 0.56749153126256
       },
@@ -19718,19 +18940,13 @@
    },
    "jamaica" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 34,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.833425006002865,
+         "__average__" : 0.833425006002865,
          "size_advice_summary" : 0.842597844583097,
          "size_advice_full" : 0.824252167422633
       },
@@ -19826,19 +19042,13 @@
    },
    "norway" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 33,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.949372546319761,
+         "__average__" : 0.949372546319761,
          "size_advice_summary" : 0.983834373227453,
          "size_advice_full" : 0.914910719412069
       },
@@ -19930,20 +19140,14 @@
    },
    "kenya" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 28,
+         "fco_advice" : 30,
+         "__total__" : 148,
+         "terrorism" : 70,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.64713491141569,
+         "__average__" : 1.64713491141569,
          "size_advice_summary" : 1.55728871242201,
          "size_advice_full" : 1.73698111040937
       },
@@ -20185,20 +19389,13 @@
    },
    "germany" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 3,
+         "__total__" : 48,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 0.988600882539213,
+         "__average__" : 0.988600882539213,
          "size_advice_summary" : 1.1505955757232,
          "size_advice_full" : 0.826606189355228
       },
@@ -20280,19 +19477,14 @@
    },
    "madagascar" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 5,
+         "__total__" : 60,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.6343070664851,
+         "__average__" : 1.6343070664851,
          "size_advice_summary" : 1.86642087351106,
          "size_advice_full" : 1.40219325945915
       },
@@ -20473,20 +19665,15 @@
    },
    "guatemala" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 9,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 21,
+         "fco_advice" : 75,
+         "__total__" : 171,
+         "crime" : 25,
+         "terrorism" : 45,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.77152759456723,
+         "__average__" : 1.77152759456723,
          "size_advice_summary" : 1.51928530913216,
          "size_advice_full" : 2.0237698800023
       },
@@ -20762,19 +19949,12 @@
    },
    "british-indian-ocean-territory" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.762190000830778,
+         "__average__" : 0.762190000830778,
          "size_advice_summary" : 1.05104934770278,
          "size_advice_full" : 0.473330653958776
       },
@@ -20830,19 +20010,14 @@
    },
    "belgium" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 1,
+         "__total__" : 46,
+         "crime" : 20,
+         "terrorism" : 20,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1,
+         "__average__" : 1,
          "size_advice_summary" : 1,
          "size_advice_full" : 1
       },
@@ -20961,20 +20136,14 @@
    },
    "sierra-leone" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 25,
+         "unrest" : 3,
+         "__total__" : 68,
+         "terrorism" : 25,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.74475166571566,
+         "__average__" : 1.74475166571566,
          "size_advice_summary" : 1.58366420873511,
          "size_advice_full" : 1.90583912269622
       },
@@ -21271,19 +20440,12 @@
    },
    "montserrat" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 38,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 1.08898399445506,
+         "__average__" : 1.08898399445506,
          "size_advice_summary" : 1.13301191151446,
          "size_advice_full" : 1.04495607739565
       },
@@ -21429,20 +20591,14 @@
    },
    "cameroon" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 14,
+         "fco_advice" : 30,
+         "__total__" : 89,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.4866317913751,
+         "__average__" : 1.4866317913751,
          "size_advice_summary" : 1.5195689166194,
          "size_advice_full" : 1.45369466613079
       },
@@ -21632,20 +20788,14 @@
    },
    "lebanon" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 20,
+         "__total__" : 79,
+         "terrorism" : 40,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.25677271842197,
+         "__average__" : 1.25677271842197,
          "size_advice_summary" : 1.4299489506523,
          "size_advice_full" : 1.08359648619165
       },
@@ -21783,19 +20933,13 @@
    },
    "palau" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 53,
+         "terrorism" : 40,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 0.906148107818458,
+         "__average__" : 0.906148107818458,
          "size_advice_summary" : 1.09500850822462,
          "size_advice_full" : 0.717287707412298
       },
@@ -21869,20 +21013,15 @@
    },
    "pakistan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 20,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 18,
+         "fco_advice" : 115,
+         "__total__" : 218,
+         "crime" : 20,
+         "terrorism" : 60,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.63051118454333,
+         "__average__" : 1.63051118454333,
          "size_advice_summary" : 1.41208167895632,
          "size_advice_full" : 1.84894069013033
       },
@@ -22137,19 +21276,14 @@
    },
    "namibia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 10,
+         "__total__" : 69,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.03910488383589,
+         "__average__" : 1.03910488383589,
          "size_advice_summary" : 1.08366420873511,
          "size_advice_full" : 0.994545558936671
       },
@@ -22272,19 +21406,12 @@
    },
    "brunei" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.997539395257064,
+         "__average__" : 0.997539395257064,
          "size_advice_summary" : 1.06437889960295,
          "size_advice_full" : 0.930699890911179
       },
@@ -22384,19 +21511,13 @@
    },
    "brazil" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 41,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.36920668975627,
+         "__average__" : 1.36920668975627,
          "size_advice_summary" : 1.35706182643222,
          "size_advice_full" : 1.38135155308032
       },
@@ -22595,19 +21716,12 @@
    },
    "falkland-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.951554884521421,
+         "__average__" : 0.951554884521421,
          "size_advice_summary" : 1.01191151446398,
          "size_advice_full" : 0.89119825457886
       },
@@ -22715,19 +21829,14 @@
    },
    "bosnia-and-herzegovina" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 78,
+         "crime" : 15,
+         "terrorism" : 25,
+         "war" : 35
       },
       "belgiums" : {
-         "average" : 1.27304820910429,
+         "__average__" : 1.27304820910429,
          "size_advice_summary" : 1.38797504254112,
          "size_advice_full" : 1.15812137566745
       },
@@ -22884,19 +21993,13 @@
    },
    "micronesia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.98739975589923,
+         "__average__" : 0.98739975589923,
          "size_advice_summary" : 1.20618264322178,
          "size_advice_full" : 0.768616868576678
       },
@@ -22978,19 +22081,13 @@
    },
    "marshall-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.889096225967086,
+         "__average__" : 0.889096225967086,
          "size_advice_summary" : 1.02921157118548,
          "size_advice_full" : 0.748980880748694
       },
@@ -23068,20 +22165,14 @@
    },
    "georgia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 35,
+         "__total__" : 73,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.2370678112227,
+         "__average__" : 1.2370678112227,
          "size_advice_summary" : 1.33323879750425,
          "size_advice_full" : 1.14089682494115
       },
@@ -23218,19 +22309,13 @@
    },
    "western-sahara" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 4,
+         "__total__" : 49,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.01829637925224,
+         "__average__" : 1.01829637925224,
          "size_advice_summary" : 1.30828133862734,
          "size_advice_full" : 0.728311419877132
       },
@@ -23311,19 +22396,14 @@
    },
    "benin" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 53,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.98329309766431,
+         "__average__" : 0.98329309766431,
          "size_advice_summary" : 1.08905275099263,
          "size_advice_full" : 0.877533444335994
       },
@@ -23416,20 +22496,15 @@
    },
    "mali" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 30,
+         "__total__" : 98,
+         "crime" : 10,
+         "terrorism" : 50,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.15232355900057,
+         "__average__" : 1.15232355900057,
          "size_advice_summary" : 1.40357345433919,
          "size_advice_full" : 0.90107366366194
       },
@@ -23539,19 +22614,13 @@
    },
    "kiribati" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.06261629787706,
+         "__average__" : 1.06261629787706,
          "size_advice_summary" : 1.25269427112876,
          "size_advice_full" : 0.872538324625366
       },
@@ -23646,16 +22715,7 @@
    },
    "kyrgystan" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "__total__" : 0
       },
       "belgiums" : {},
       "number_export_controls" : 0,
@@ -23672,20 +22732,14 @@
    },
    "uzbekistan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "fco_advice" : 30,
+         "__total__" : 91,
+         "terrorism" : 50,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.19643352797065,
+         "__average__" : 1.19643352797065,
          "size_advice_summary" : 1.24617129892229,
          "size_advice_full" : 1.146695757019
       },
@@ -23826,19 +22880,15 @@
    },
    "guyana" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 11,
+         "__total__" : 91,
+         "crime" : 30,
+         "fierce_creatures" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.00492610263911,
+         "__average__" : 1.00492610263911,
          "size_advice_summary" : 1.0723199092456,
          "size_advice_full" : 0.937532296032612
       },
@@ -23948,19 +22998,13 @@
    },
    "vietnam" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 39,
+         "crime" : 5,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 1.12764474932417,
+         "__average__" : 1.12764474932417,
          "size_advice_summary" : 0.932501418037436,
          "size_advice_full" : 1.3227880806109
       },
@@ -24136,19 +23180,12 @@
    },
    "bolivia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "__total__" : 45,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.56315566014401,
+         "__average__" : 1.56315566014401,
          "size_advice_summary" : 1.7748156551333,
          "size_advice_full" : 1.35149566515473
       },
@@ -24344,19 +23381,13 @@
    },
    "gabon" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 7,
+         "__total__" : 57,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.927596703607233,
+         "__average__" : 0.927596703607233,
          "size_advice_summary" : 1.12251843448667,
          "size_advice_full" : 0.732674972727795
       },
@@ -24435,19 +23466,14 @@
    },
    "south-africa" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 4,
+         "__total__" : 64,
+         "crime" : 20,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 1.11097557556102,
+         "__average__" : 1.11097557556102,
          "size_advice_summary" : 1.08111174134997,
          "size_advice_full" : 1.14083940977206
       },
@@ -24580,20 +23606,14 @@
    },
    "iraq" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 29,
+         "fco_advice" : 30,
+         "__total__" : 234,
+         "terrorism" : 110,
+         "war" : 65
       },
       "belgiums" : {
-         "average" : 1.44974884690117,
+         "__average__" : 1.44974884690117,
          "size_advice_summary" : 1.61712989222915,
          "size_advice_full" : 1.28236780157318
       },
@@ -24778,19 +23798,13 @@
    },
    "china" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 10,
+         "__total__" : 75,
+         "crime" : 10,
+         "terrorism" : 55
       },
       "belgiums" : {
-         "average" : 1.62680298041719,
+         "__average__" : 1.62680298041719,
          "size_advice_summary" : 1.60068065796937,
          "size_advice_full" : 1.65292530286502
       },
@@ -25015,19 +24029,14 @@
    },
    "cuba" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 4,
+         "__total__" : 84,
+         "crime" : 25,
+         "terrorism" : 50
       },
       "belgiums" : {
-         "average" : 1.25801028724812,
+         "__average__" : 1.25801028724812,
          "size_advice_summary" : 1.32614861032331,
          "size_advice_full" : 1.18987196417293
       },
@@ -25159,19 +24168,12 @@
    },
    "st-pierre-and-miquelon" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 38,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 0.678419795486712,
+         "__average__" : 0.678419795486712,
          "size_advice_summary" : 0.933919455473625,
          "size_advice_full" : 0.422920135499799
       },
@@ -25227,19 +24229,12 @@
    },
    "bahamas" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.0551927737913,
+         "__average__" : 1.0551927737913,
          "size_advice_summary" : 1.27424844015882,
          "size_advice_full" : 0.836137107423781
       },
@@ -25335,19 +24330,13 @@
    },
    "slovakia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "crime" : 15,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.12487935242724,
+         "__average__" : 1.12487935242724,
          "size_advice_summary" : 0.980998298355077,
          "size_advice_full" : 1.2687604064994
       },
@@ -25511,19 +24500,13 @@
    },
    "lithuania" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 53,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.16590021106832,
+         "__average__" : 1.16590021106832,
          "size_advice_summary" : 1.25836642087351,
          "size_advice_full" : 1.07343400126313
       },
@@ -25646,19 +24629,13 @@
    },
    "netherlands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 33,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.26282878122446,
+         "__average__" : 1.26282878122446,
          "size_advice_summary" : 1.23766307430516,
          "size_advice_full" : 1.28799448814377
       },
@@ -25810,19 +24787,14 @@
    },
    "burma" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 73,
+         "crime" : 5,
+         "terrorism" : 35,
+         "war" : 30
       },
       "belgiums" : {
-         "average" : 1.71271169726763,
+         "__average__" : 1.71271169726763,
          "size_advice_summary" : 1.90328984685196,
          "size_advice_full" : 1.5221335476833
       },
@@ -26046,20 +25018,15 @@
    },
    "nigeria" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 8,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 29,
+         "fco_advice" : 55,
+         "__total__" : 174,
+         "crime" : 10,
+         "terrorism" : 45,
+         "war" : 35
       },
       "belgiums" : {
-         "average" : 2.17382142013083,
+         "__average__" : 2.17382142013083,
          "size_advice_summary" : 2.19767441860465,
          "size_advice_full" : 2.149968421657
       },
@@ -26383,19 +25350,13 @@
    },
    "vanuatu" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "fco_advice" : 10,
+         "__total__" : 55,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.21322378488676,
+         "__average__" : 1.21322378488676,
          "size_advice_summary" : 1.27963698241634,
          "size_advice_full" : 1.14681058735718
       },
@@ -26529,19 +25490,12 @@
    },
    "reunion" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 33,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 0.882466597675106,
+         "__average__" : 0.882466597675106,
          "size_advice_summary" : 1.20731707317073,
          "size_advice_full" : 0.55761612217948
       },
@@ -26606,19 +25560,13 @@
    },
    "bhutan" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "__total__" : 96,
+         "terrorism" : 55,
+         "war" : 35
       },
       "belgiums" : {
-         "average" : 0.852808829534624,
+         "__average__" : 0.852808829534624,
          "size_advice_summary" : 1.1091888825865,
          "size_advice_full" : 0.596428776482747
       },
@@ -26679,20 +25627,14 @@
    },
    "iran" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 7,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 15,
+         "fco_advice" : 35,
+         "__total__" : 195,
+         "terrorism" : 125,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.98971361489519,
+         "__average__" : 1.98971361489519,
          "size_advice_summary" : 2.02495745887691,
          "size_advice_full" : 1.95446977091348
       },
@@ -26971,20 +25913,14 @@
    },
    "liberia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 30,
+         "__total__" : 84,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.37881060618076,
+         "__average__" : 1.37881060618076,
          "size_advice_summary" : 1.39676687464549,
          "size_advice_full" : 1.36085433771602
       },
@@ -27161,16 +26097,7 @@
    },
    "timor-leste" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "__total__" : 0
       },
       "belgiums" : {},
       "number_export_controls" : 0,
@@ -27187,20 +26114,14 @@
    },
    "congo" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 25,
+         "__total__" : 74,
+         "terrorism" : 40,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 0.940970383445074,
+         "__average__" : 0.940970383445074,
          "size_advice_summary" : 1.13726602382303,
          "size_advice_full" : 0.744674743067118
       },
@@ -27298,19 +26219,15 @@
    },
    "east-timor-(timor-leste)" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 9,
+         "fco_advice" : 15,
+         "__total__" : 69,
+         "crime" : 5,
+         "terrorism" : 35,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.22343728561923,
+         "__average__" : 1.22343728561923,
          "size_advice_summary" : 1.35110606920023,
          "size_advice_full" : 1.09576850203824
       },
@@ -27448,19 +26365,13 @@
    },
    "switzerland" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 33,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.97920197376612,
+         "__average__" : 0.97920197376612,
          "size_advice_summary" : 1.09614293817357,
          "size_advice_full" : 0.862261009358673
       },
@@ -27556,19 +26467,14 @@
    },
    "north-korea" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 54,
+         "crime" : 5,
+         "terrorism" : 40,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.21438284343561,
+         "__average__" : 1.21438284343561,
          "size_advice_summary" : 1.33891094724901,
          "size_advice_full" : 1.08985473962221
       },
@@ -27708,20 +26614,14 @@
    },
    "indonesia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 2,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 20,
+         "unrest" : 23,
+         "__total__" : 138,
+         "crime" : 10,
+         "terrorism" : 85
       },
       "belgiums" : {
-         "average" : 1.98771233964665,
+         "__average__" : 1.98771233964665,
          "size_advice_summary" : 1.74191718661373,
          "size_advice_full" : 2.23350749267957
       },
@@ -28043,20 +26943,14 @@
    },
    "sudan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 11,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 15,
+         "fco_advice" : 55,
+         "__total__" : 110,
+         "crime" : 5,
+         "terrorism" : 35
       },
       "belgiums" : {
-         "average" : 1.60900781963339,
+         "__average__" : 1.60900781963339,
          "size_advice_summary" : 1.47334089619966,
          "size_advice_full" : 1.74467474306712
       },
@@ -28308,20 +27202,14 @@
    },
    "egypt" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 12,
+         "__total__" : 77,
+         "terrorism" : 40,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.95853087641569,
+         "__average__" : 1.95853087641569,
          "size_advice_summary" : 1.92739648326716,
          "size_advice_full" : 1.98966526956422
       },
@@ -28611,19 +27499,13 @@
    },
    "st-kitts-and-nevis" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 54,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.900451305048747,
+         "__average__" : 0.900451305048747,
          "size_advice_summary" : 1.06891661939875,
          "size_advice_full" : 0.731985990698743
       },
@@ -28703,20 +27585,14 @@
    },
    "tajikistan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 5,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 25,
+         "__total__" : 78,
+         "terrorism" : 35,
+         "war" : 15
       },
       "belgiums" : {
-         "average" : 1.24203283926218,
+         "__average__" : 1.24203283926218,
          "size_advice_summary" : 1.39449801474759,
          "size_advice_full" : 1.08956766377677
       },
@@ -28847,19 +27723,13 @@
    },
    "romania" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 39,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.995224209166294,
+         "__average__" : 0.995224209166294,
          "size_advice_summary" : 0.874929098128191,
          "size_advice_full" : 1.1155193202044
       },
@@ -28988,19 +27858,14 @@
    },
    "turks-and-caicos-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 3,
+         "__total__" : 63,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.918177408052603,
+         "__average__" : 0.918177408052603,
          "size_advice_summary" : 1.00567214974475,
          "size_advice_full" : 0.830682666360452
       },
@@ -29087,19 +27952,15 @@
    },
    "saudi-arabia" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 10,
+         "__total__" : 175,
+         "crime" : 5,
+         "terrorism" : 140,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.57475472112755,
+         "__average__" : 1.57475472112755,
          "size_advice_summary" : 1.70419739081112,
          "size_advice_full" : 1.44531205144399
       },
@@ -29287,20 +28148,16 @@
    },
    "botswana" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 4,
+         "__total__" : 69,
+         "crime" : 5,
+         "fierce_creatures" : 5,
+         "terrorism" : 40,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 0.934245359019202,
+         "__average__" : 0.934245359019202,
          "size_advice_summary" : 1.02580828133863,
          "size_advice_full" : 0.842682436699776
       },
@@ -29397,20 +28254,13 @@
    },
    "syria" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 6,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 40,
+         "__total__" : 74,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 1.45778692172332,
+         "__average__" : 1.45778692172332,
          "size_advice_summary" : 1.70164492342598,
          "size_advice_full" : 1.21392892002067
       },
@@ -29581,20 +28431,14 @@
    },
    "angola" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "fco_advice" : 25,
+         "__total__" : 81,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.27491582229513,
+         "__average__" : 1.27491582229513,
          "size_advice_summary" : 1.25155984117981,
          "size_advice_full" : 1.29827180341046
       },
@@ -29760,19 +28604,13 @@
    },
    "dominica,-commonwealth-of" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.983343128324271,
+         "__average__" : 0.983343128324271,
          "size_advice_summary" : 1.19824163357913,
          "size_advice_full" : 0.768444623069415
       },
@@ -29848,20 +28686,14 @@
    },
    "yemen" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 4,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 17,
+         "fco_advice" : 30,
+         "__total__" : 107,
+         "terrorism" : 55,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 2.18603134366704,
+         "__average__" : 2.18603134366704,
          "size_advice_summary" : 2.61401020986954,
          "size_advice_full" : 1.75805247746455
       },
@@ -30135,20 +28967,14 @@
    },
    "tunisia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 3,
+         "__total__" : 53,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.34878933618913,
+         "__average__" : 1.34878933618913,
          "size_advice_summary" : 1.52240499149178,
          "size_advice_full" : 1.17517368088649
       },
@@ -30285,20 +29111,15 @@
    },
    "zimbabwe" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 20,
+         "__total__" : 84,
+         "crime" : 15,
+         "terrorism" : 40,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 1.77710224762312,
+         "__average__" : 1.77710224762312,
          "size_advice_summary" : 1.87521270561543,
          "size_advice_full" : 1.67899178963082
       },
@@ -30525,20 +29346,16 @@
    },
    "zambia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 5,
+         "fco_advice" : 20,
+         "__total__" : 100,
+         "crime" : 5,
+         "fierce_creatures" : 10,
+         "terrorism" : 40,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.33641819913007,
+         "__average__" : 1.33641819913007,
          "size_advice_summary" : 1.35309132161089,
          "size_advice_full" : 1.31974507664925
       },
@@ -30710,20 +29527,15 @@
    },
    "afghanistan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 27,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 145,
+         "unrest" : 87,
+         "__total__" : 462,
+         "crime" : 30,
+         "terrorism" : 60,
+         "war" : 140
       },
       "belgiums" : {
-         "average" : 2.69497336545152,
+         "__average__" : 2.69497336545152,
          "size_advice_summary" : 2.79013045944413,
          "size_advice_full" : 2.59981627145892
       },
@@ -31135,19 +29947,12 @@
    },
    "french-guiana" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.792844498586294,
+         "__average__" : 0.792844498586294,
          "size_advice_summary" : 1.05190017016449,
          "size_advice_full" : 0.533788827008095
       },
@@ -31208,19 +30013,15 @@
    },
    "maldives" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 15,
+         "__total__" : 53,
+         "crime" : 5,
+         "terrorism" : 25,
+         "war" : 5
       },
       "belgiums" : {
-         "average" : 0.961791890301139,
+         "__average__" : 0.961791890301139,
          "size_advice_summary" : 1.08423142370959,
          "size_advice_full" : 0.839352356892691
       },
@@ -31299,19 +30100,14 @@
    },
    "solomon-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 15,
+         "__total__" : 63,
+         "fierce_creatures" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.16761095025492,
+         "__average__" : 1.16761095025492,
          "size_advice_summary" : 1.19455473624504,
          "size_advice_full" : 1.1406671642648
       },
@@ -31438,20 +30234,15 @@
    },
    "mauritania" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 7,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 11,
+         "fco_advice" : 50,
+         "__total__" : 161,
+         "crime" : 5,
+         "terrorism" : 85,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.60118734765074,
+         "__average__" : 1.60118734765074,
          "size_advice_summary" : 1.91661939875213,
          "size_advice_full" : 1.28575529654935
       },
@@ -31631,19 +30422,13 @@
    },
    "laos" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 2,
+         "__total__" : 42,
+         "crime" : 10,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 1.07459821349917,
+         "__average__" : 1.07459821349917,
          "size_advice_summary" : 1.14293817356778,
          "size_advice_full" : 1.00625825343056
       },
@@ -31754,19 +30539,14 @@
    },
    "papua-new-guinea" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 5,
+         "__total__" : 55,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.32803396424777,
+         "__average__" : 1.32803396424777,
          "size_advice_summary" : 1.48950652297221,
          "size_advice_full" : 1.16656140552334
       },
@@ -31909,19 +30689,12 @@
    },
    "anguilla" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 33,
+         "terrorism" : 30
       },
       "belgiums" : {
-         "average" : 0.907826060435865,
+         "__average__" : 0.907826060435865,
          "size_advice_summary" : 1.08820192853091,
          "size_advice_full" : 0.727450192340816
       },
@@ -32007,19 +30780,12 @@
    },
    "united-arab-emirates" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 7,
+         "__total__" : 47,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.3416971217284,
+         "__average__" : 1.3416971217284,
          "size_advice_summary" : 1.01559841179807,
          "size_advice_full" : 1.66779583165872
       },
@@ -32238,19 +31004,13 @@
    },
    "uruguay" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 48,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.886514489221075,
+         "__average__" : 0.886514489221075,
          "size_advice_summary" : 0.996029495178673,
          "size_advice_full" : 0.776999483263478
       },
@@ -32338,19 +31098,13 @@
    },
    "tonga" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 58,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.96597836962479,
+         "__average__" : 0.96597836962479,
          "size_advice_summary" : 1.10380034032898,
          "size_advice_full" : 0.828156398920595
       },
@@ -32447,19 +31201,15 @@
    },
    "nepal" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 5,
+         "unrest" : 5,
+         "__total__" : 80,
+         "crime" : 10,
+         "terrorism" : 40,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.38276140812217,
+         "__average__" : 1.38276140812217,
          "size_advice_summary" : 1.15910380034033,
          "size_advice_full" : 1.606419015904
       },
@@ -32691,19 +31441,13 @@
    },
    "monaco" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 38,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.731711102957122,
+         "__average__" : 0.731711102957122,
          "size_advice_summary" : 0.913499716392513,
          "size_advice_full" : 0.549922489521732
       },
@@ -32759,20 +31503,14 @@
    },
    "bangladesh" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 20,
+         "__total__" : 59,
+         "crime" : 10,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.28259234927077,
+         "__average__" : 1.28259234927077,
          "size_advice_summary" : 1.1792399319342,
          "size_advice_full" : 1.38594476660734
       },
@@ -32918,19 +31656,13 @@
    },
    "mauritius" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 54,
+         "crime" : 10,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.950116248619862,
+         "__average__" : 0.950116248619862,
          "size_advice_summary" : 0.979580260918888,
          "size_advice_full" : 0.920652236320836
       },
@@ -33034,19 +31766,13 @@
    },
    "barbados" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "__total__" : 59,
+         "crime" : 15,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.0097215556443,
+         "__average__" : 1.0097215556443,
          "size_advice_summary" : 1.18009075439592,
          "size_advice_full" : 0.839352356892691
       },
@@ -33145,19 +31871,12 @@
    },
    "paraguay" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 28,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.860029951308485,
+         "__average__" : 0.860029951308485,
          "size_advice_summary" : 0.928247305728871,
          "size_advice_full" : 0.791812596888098
       },
@@ -33240,20 +31959,15 @@
    },
    "cambodia" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 6,
+         "fco_advice" : 15,
+         "__total__" : 66,
+         "crime" : 15,
+         "terrorism" : 20,
+         "war" : 10
       },
       "belgiums" : {
-         "average" : 1.38426071586718,
+         "__average__" : 1.38426071586718,
          "size_advice_summary" : 1.22376630743052,
          "size_advice_full" : 1.54475512430384
       },
@@ -33438,20 +32152,15 @@
    },
    "uganda" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 8,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 14,
+         "fco_advice" : 40,
+         "__total__" : 124,
+         "crime" : 10,
+         "terrorism" : 40,
+         "war" : 20
       },
       "belgiums" : {
-         "average" : 1.30556012665988,
+         "__average__" : 1.30556012665988,
          "size_advice_summary" : 1.22121384004538,
          "size_advice_full" : 1.38990641327439
       },
@@ -33644,20 +32353,13 @@
    },
    "azerbaijan" : {
       "scores" : {
-         "corruption" : 1,
-         "fco_advice" : 3,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 4,
+         "fco_advice" : 15,
+         "__total__" : 44,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 1.07431484212082,
+         "__average__" : 1.07431484212082,
          "size_advice_summary" : 1.06721497447533,
          "size_advice_full" : 1.08141470976632
       },
@@ -33776,19 +32478,14 @@
    },
    "suriname" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "fco_advice" : 10,
+         "unrest" : 4,
+         "__total__" : 44,
+         "crime" : 5,
+         "terrorism" : 25
       },
       "belgiums" : {
-         "average" : 0.967980141516179,
+         "__average__" : 0.967980141516179,
          "size_advice_summary" : 1.1942711287578,
          "size_advice_full" : 0.741689154274559
       },
@@ -33868,19 +32565,12 @@
    },
    "tuvalu" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.916630194627653,
+         "__average__" : 0.916630194627653,
          "size_advice_summary" : 1.15541690300624,
          "size_advice_full" : 0.677843486249067
       },
@@ -33966,19 +32656,12 @@
    },
    "south-georgia-and-south-sandwich-islands" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "__total__" : 43,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 0.967041624955453,
+         "__average__" : 0.967041624955453,
          "size_advice_summary" : 1.24446965399887,
          "size_advice_full" : 0.68961359591204
       },
@@ -34054,19 +32737,14 @@
    },
    "fiji" : {
       "scores" : {
-         "corruption" : 1,
-         "civilunrest" : 1,
-         "total" : 9,
-         "terrorism" : 1,
-         "disease" : 1,
-         "famine" : 1,
-         "war" : 1,
-         "bureaucracy" : 1,
-         "importcontrol" : 1,
-         "exportcontrol" : 1
+         "unrest" : 3,
+         "fco_advice" : 10,
+         "__total__" : 58,
+         "crime" : 5,
+         "terrorism" : 40
       },
       "belgiums" : {
-         "average" : 1.17403971501364,
+         "__average__" : 1.17403971501364,
          "size_advice_summary" : 1.19483834373227,
          "size_advice_full" : 1.153241086295
       },
