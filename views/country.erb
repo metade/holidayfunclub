@@ -1,9 +1,15 @@
 <div id="panel">
-  <div class="siteTitle">The Christopher Hitchens Holiday Fun Club</div>
+  <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
   
   <h1>
     <%= @country.name %>
   </h1>
+  
+  <p>
+    <%= @country.wikipedia.abstract %> <br/>
+    <a href="<%= @country.wikipedia.url %>">Read more on Wikipedia</a>
+  </p>
+  
   
   <div id="tagcloud">
     <%= tag_cloud(@country) %>

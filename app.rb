@@ -1,7 +1,9 @@
 require 'sinatra'
 require 'ostruct'
+require 'open-uri'
 require 'json'
 require 'flickraw'
+require 'nokogiri'
 require 'active_support/inflector'
 
 require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
@@ -16,6 +18,23 @@ class Country < OpenStruct
     country = Country.new($countries[slug])
     country.name = slug.titleize
     country
+  end
+  
+  def wikipedia
+    return @wikipedia if @wikipedia
+    url = "http://dbpedialite.org/search.json?term=#{name}"
+    results = JSON.parse(open(url).read)
+    label = results.first['label'] if results.any?
+    if label
+      url = "http://dbpedialite.org/titles/#{label}"
+      
+      xml = Nokogiri::HTML(open(url).read)
+      abstract = xml.xpath('//td[@property="rdfs:comment"]/p').first.content
+      @wikipedia = OpenStruct.new(:abstract => abstract,
+        :url => "http://en.wikipedia.org/wiki/#{label}")
+    else
+      nil
+    end
   end
   
   def poster_image
@@ -51,7 +70,10 @@ get '/' do
   erb :index
 end
 
-get '/countries/:country' do
-  @country = Country.find_by_slug params[:country]
+get '/keywords' do
+end
+
+get '/countries/:country' do |country|
+  @country = Country.find_by_slug(country)
   erb :country
 end
