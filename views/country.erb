@@ -22,7 +22,7 @@
     <span class="score" style="width: <%= $belgiums_max*16 %>px;">
       <span class="bar" style="width: <%= (@country.belgiums['__average__'] / $belgiums_max)*100 %>%;">&nbsp;</span><br/>
     </span><br/>
-    <%= @country.belgiums['__average__'].round(2) %> belgiums
+    <%= sprintf "%.1f", @country.belgiums['__average__'] %> belgiums
   </a>
 </div>
 <% end %>
