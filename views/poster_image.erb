@@ -1,0 +1,8 @@
+<% if poster_image %>
+  <div id="photoPanel">
+    <a href="<%= poster_image.url %>"><%= poster_image.title %></a>
+  </div>
+  <img id="posterwall" src="<%= poster_image.image_url %>" style="width: 100%; left: 0px; ">
+<% else %>
+  <img id="posterwall" src="/images/posterwall.png" style="width: 100%; left: 0px; " />
+<% end %>

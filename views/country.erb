@@ -15,8 +15,4 @@
     <%= tag_cloud(@country.wordle_summary) %>
   </div>
 </div>
-
-<div id="photoPanel">
-  <a href="<%= @country.poster_image.url %>"><%= @country.poster_image.title %></a>
-</div>
-<img id="posterwall" src="<%= @country.poster_image.image_url %>" style="width: 100%; left: 0px; ">
+<%= erb :poster_image, :locals => { :poster_image => @country.poster_image } %>

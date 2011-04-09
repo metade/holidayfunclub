@@ -1,0 +1,14 @@
+<div id="panel">
+  <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
+  
+  <h1><%= @keyword %></h1>
+</div>
+
+<div id="countries" class="container">
+  <ul>
+    <% @countries.each do |country| %>
+      <li><a href="/countries/<%= country.slug %>"><%= country.name %></a></li>
+    <% end %>
+  </ul>
+</div>
+<%= erb :poster_image, :locals => { :poster_image => @poster_image } %>

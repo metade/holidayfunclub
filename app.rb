@@ -15,7 +15,7 @@ end
 
 def flickr_image(tag)
   photos = flickr.photos.search(
-    :tags => name, 
+    :tags => tag, 
     :is_commons => true, 
     # :content_type => 1,
     # :sort => 'interestingness-desc',
@@ -29,7 +29,7 @@ def flickr_image(tag)
     poster_image.image_url = largest['source']
     poster_image
   else
-    OpenStruct.new()
+    nil
   end
 end
 
@@ -55,16 +55,17 @@ class Country < OpenStruct
     $countries.values.select do |country|
       next unless country['wordle_summary']
       country['wordle_summary'].include? keyword
-    end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }
+    end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }.
+        sort { |a,b| a.slug <=> b.slug }
   end
   
   def wikipedia
     return @wikipedia if @wikipedia
-    url = "http://dbpedialite.org/search.json?term=#{name}"
+    url = "http://dbpedialite.org/search.json?term=#{URI.escape(name)}"
     results = JSON.parse(open(url).read)
     label = results.first['label'] if results.any?
     if label
-      url = "http://dbpedialite.org/titles/#{label}"
+      url = "http://dbpedialite.org/titles/#{URI.escape(label)}"
       
       xml = Nokogiri::HTML(open(url).read)
       abstract = xml.xpath('//td[@property="rdfs:comment"]/p').first.content
@@ -98,7 +99,13 @@ end
 get '/keywords/:keyword' do |keyword|
   @keyword = keyword
   @countries = Country.find_by_keyword(keyword)
+  @poster_image = flickr_image(keyword)
   erb :keyword
+end
+
+get '/countries/random' do
+  slug = $countries.keys[(rand*$countries.keys.size).to_i]
+  redirect "/countries/#{slug}"
 end
 
 get '/countries/:country' do |country|
