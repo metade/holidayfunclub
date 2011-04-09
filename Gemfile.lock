@@ -2,6 +2,8 @@ GEM
   remote: http://rubygems.org/
   specs:
     activesupport (3.0.6)
+    flickraw (0.8.4)
+      json (>= 1.1.1)
     i18n (0.5.0)
     json (1.5.1)
     rack (1.2.2)
@@ -15,6 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  flickraw
   i18n
   json
   sinatra
