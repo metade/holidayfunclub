@@ -21,7 +21,7 @@ def flickr_image(tag)
     # :sort => 'interestingness-desc',
     :per_page => 10)
   if photos.any?
-    photo = photos[(rand*10).to_i]
+    photo = photos[(rand*photos.size).to_i]
     sizes = flickr.photos.getSizes(:photo_id => photo.id)
     largest = sizes.sort { |a,b| b['width'].to_i <=> a['width'].to_i }.first
     poster_image = OpenStruct.new(photo.to_hash)
@@ -89,6 +89,10 @@ end
 
 get '/' do
   erb :index
+end
+
+get '/explore' do
+  erb :explore
 end
 
 get '/keywords' do
