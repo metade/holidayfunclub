@@ -1,7 +1,13 @@
 <div id="panel">
   <div class="siteTitle">The Christopher Hitchens Holiday Fun Club</div>
   
-  <h1><%= @country.name %></h1>
+  <h1>
+    <%= @country.name %>
+  </h1>
+  
+  <div id="tagcloud">
+    <%= tag_cloud(@country) %>
+  </div>
 </div>
 
 <div id="photoPanel">

@@ -4,6 +4,8 @@ require 'json'
 require 'flickraw'
 require 'active_support/inflector'
 
+require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
+
 configure do
   FlickRaw.api_key = ENV['flickr_api_key']
   $countries = JSON.parse(open('test.json').read)
@@ -23,12 +25,12 @@ class Country < OpenStruct
         :is_commons => true, 
         # :content_type => 1,
         # :sort => 'interestingness-desc',
-        :per_page => 1)
+        :per_page => 10)
       if photos.any?
-        sizes = flickr.photos.getSizes(:photo_id => photos.first.id)
+        photo = photos[(rand*10).to_i]
+        sizes = flickr.photos.getSizes(:photo_id => photo.id)
         largest = sizes.sort { |a,b| b['width'].to_i <=> a['width'].to_i }.first
-        p photos.first.to_hash
-        @poster_image = OpenStruct.new(photos.first.to_hash)
+        @poster_image = OpenStruct.new(photo.to_hash)
         @poster_image.url = "http://www.flickr.com/photos/#{@poster_image.owner}/#{@poster_image.id}/"
         @poster_image.image_url = largest['source']
       else
@@ -37,6 +39,12 @@ class Country < OpenStruct
     end
     @poster_image
   end
+end
+
+def tag_cloud(country)
+  tc = TagCloud.new
+  tc.wordcount = country.wordle_summary
+  tc.build
 end
 
 get '/' do
