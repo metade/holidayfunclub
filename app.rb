@@ -11,7 +11,7 @@ require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
 configure do
   FlickRaw.api_key = ENV['flickr_api_key']
   $countries = JSON.parse(open('test.json').read)
-  $belgiums_max = $countries.values.map { |c| c['belgiums']['__average__'] || 0 }.max.ceil
+  $belgiums_max = $countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
 end
 p $belgiums_max
 
@@ -129,5 +129,6 @@ end
 
 get '/countries/:country' do |country|
   @country = Country.find_by_slug(country)
+  @title = @country.name
   erb :country
 end
