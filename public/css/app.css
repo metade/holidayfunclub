@@ -2,8 +2,8 @@
 
 #panel { color: #fff;}
 #panel h1 { color: #fff; font-weight: bold; }
-
 #panel a { color: #fff; font-weight: bold; }
+#panel del { color: #fff; }
 
 #panel .siteTitle {  font-size: 20px; border-bottom: 3px solid white; margin-bottom: 1em; text-align: center; }
 #panel .siteTitle a { color: #fff; text-decoration: none; font-weight: normal; }
