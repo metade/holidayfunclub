@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Christopher Hitchens Holiday Fun Club</title>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="DrasticTreemapGApi.js"></script>
+<script type="text/javascript">
+	google.load("visualization", "1");
+	google.load("swfobject", "2.2");
+  
+	// Set callback to run when API is loaded
+	google.setOnLoadCallback(drawVisualization); 
+
+	// Called when the Visualization API is loaded.
+	function drawVisualization() {
+	
+	// Create and populate a data table.
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Product');
+	data.addColumn('string', 'Type');
+
+	data.addColumn('number', 'FCO Advice');
+	data.addColumn('number', 'Natural Disaster');
+	data.addColumn('number', 'Crime');
+        
+        data.addRows([
+        ['algeria', 'africa',10, 3, 12],
+                    ['canada', 'ameria',0, 3, 0],
+                    ['portugal', 'europe',0, 0, 6],
+                    ['south-korea', 'asia',0, 0, 0],
+                    ['japan', 'asia',0, 35, 2],
+                    ['france', 'europe',0, 0, 2],
+                    ['poland', 'europe',0, 0, 1],
+                    ['mexico', 'ameria',15, 11, 24],
+                    ['india', 'asia',5, 2, 11],
+                    ['thailand', 'asia',25, 12, 5],
+                    ['united-states', 'ameria',0, 4, 0],
+                    ['australia', 'australia',0, 12, 2],
+                    ['spain', 'europe',0, 0, 4],
+                    ['italy', 'europe',0, 5, 3],
+                    ['germany', 'europe',0, 0, 0],
+                    ['brazil', 'ameria',0, 17, 5],
+                    ['benin', 'africa',5, 2, 1],
+                    ['south-africa', 'africa',5, 1, 21],
+                    ['china', 'asia',0, 19, 3],
+                    ['north-korea', 'asia',0, 1, 4],
+                    ['angola', 'africa',5, 0, 20],
+                    ['uganda', 'africa',0, 0, 3],
+                            ]);
+        
+        /*
+        data.addRows([
+	  ['Japan', 'Asia', 10, 100, 400, 400],
+	  ['China', 'Asia', 50, 400, 300, 400],
+	  ['India', 'Asia', 200, 400, 500, 400],
+	  ['Korea', 'Asia', 500, 1000, 700, 700],
+	  ['South Korea', 'Asia', 500, 1000, 700, 700],
+          
+	  ['USA', 'America', 700, 300, 200, 200],
+	  ['Canada', 'America', 800, 700, 600, 200],
+	  ['Mexico', 'America', 200, 300, 100, 200],
+	  ['Jamaica', 'America', 100, 150, 500, 40],
+	  ['Peru', 'America', 100, 150, 500, 40],
+	  
+          ['Angola', 'Africa', 800, 1000, 900, 500],
+	  ['Senagal', 'Africa', 250, 100, 300, 50],
+	  ['Uganda', 'Africa', 120, 300, 200, 100],
+	  ['Burundi', 'Africa', 50, 300, 200, 50],
+	  ['South Africa', 'Africa', 50, 300, 200, 50],
+          
+	  ['Portugal', 'Europe', 200, 300, 400, 500],
+	  ['France', 'Europe', 400, 600, 200, 500],
+	  ['England', 'Europe', 500, 200, 300, 500]
+	]);
+         */
+
+	// Instantiate our object.
+	var vis = new drasticdata.DrasticTreemap(document.getElementById('thediv'));
+	
+	// Draw the treemap with the data we created locally and some options:
+	vis.draw(data, {
+		groupbycol: "Type",
+		labelcol: "Product",
+		variables: ['Terrorism', 'Disease', 'War']
+		}
+	);
+   }
+    </script>
+
+<style type="text/css">
+    body {
+        background-color:#FFF;
+        /*
+        background-image:url(http://mi9.com/uploads/vista/4697/bing-background-free-wallpaper_1920x1200_84236.jpg);
+        */
+        margin: 40px;
+        font-family: Lucida Grande, Verdana, Sans-serif;
+        font-size: 14px;
+        color: #4F5155;
+    }
+
+    a {
+        color: #003399;
+        background-color: transparent;
+        font-weight: normal;
+    }
+
+    h1 {
+        color: #444;
+        background-color: transparent;
+        border-bottom: 1px solid #D0D0D0;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 24px 0 2px 0;
+        padding: 5px 0 6px 0;
+    }
+
+    code {
+        font-family: Monaco, Verdana, Sans-serif;
+        font-size: 12px;
+        background-color: #f9f9f9;
+        border: 1px solid #D0D0D0;
+        color: #002166;
+        display: block;
+        margin: 14px 0 14px 0;
+        padding: 12px 10px 12px 10px;
+    }
+
+</style>
+</head>
+<body>
+<h3>The Christopher Hitchens Holiday Fun Club</h3>
+<p>"He also travels the world to report on foreign affairs and tries to visit at least one <strike>fucked-up</strike> 'difficult' country a year, often at his own expense." <a href="http://www.guardian.co.uk/books/2002/apr/14/politics">more...</a></p>        
+
+<div id="content" style="text-align:center;">
+    <div id="thediv" style="width:800px; height:450px;"></div>
+</div>
+
+<p><br />Page rendered in 0.1391 seconds</p>
+
+</body>
+</html>

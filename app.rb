@@ -155,7 +155,8 @@ end
 
 get '/explore' do
   response['Cache-Control'] = "public, max-age=3600"
-  erb :explore
+  @poster_image = flickr_image('explore')
+  erb :explore, :layout => false
 end
 
 get '/keywords' do
