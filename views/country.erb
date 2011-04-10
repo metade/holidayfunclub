@@ -15,6 +15,12 @@
   </div>
   <p><a href="<%= @country.url_advice_summary %>">See travel advice summary</a></p>
   
+  <% if @country.weather %>
+  <div id="weather">
+    <%= @country.weather.description %>
+  </div>
+  <% end %>
+  
   <h2>Travel site affiliate place holder</h2>
   <img src="http://placekitten.com/390/200" width="390" height="200">
   

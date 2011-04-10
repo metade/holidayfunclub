@@ -5,6 +5,7 @@ require 'json'
 require 'flickraw'
 require 'nokogiri'
 require 'active_support/inflector'
+require 'yahoo-weather'
 
 require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
 
@@ -96,6 +97,25 @@ class Country < OpenStruct
     else
       nil
     end
+  end
+  
+  def woeid
+    return @woeid if @woeid
+    embassy = info['country']['embassies'].first
+    return nil if embassy.nil?
+    position = [embassy['lat'], embassy['long']].join(',')
+    url = "http://where.yahooapis.com/geocode?q=#{position}&gflags=R"
+    xml = Nokogiri::HTML(open(url).read)
+    @woeid = xml.xpath('//result/woeid').first.content
+  end
+  
+  def weather
+    return @weather if @weather
+    
+    client = YahooWeather::Client.new
+    response = client.lookup_by_woeid(woeid)
+    p response
+    @weather = response
   end
   
   def poster_image
