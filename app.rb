@@ -177,6 +177,10 @@ get '/countries/random' do
   redirect "/countries/#{slug}"
 end
 
+get '/whatnottobring' do
+  
+end
+
 get '/countries/:country' do |country|
   response['Cache-Control'] = "public, max-age=10"
   @country = Country.find_by_slug(country)

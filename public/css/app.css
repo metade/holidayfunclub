@@ -37,3 +37,6 @@
 
 #commodities { margin-bottom: 0.5em; }
 #commodities a { text-decoration: none; }
+
+#social { width: 370px; height: 30px; }
+#social iframe { float: left; }
