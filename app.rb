@@ -14,7 +14,6 @@ configure do
   $commodities_by_country = JSON.parse(open('data/commodities_by_country.json').read)
   $belgiums_max = $countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
 end
-p $belgiums_max
 
 def flickr_image(tag)
   photos = flickr.photos.search(
@@ -65,6 +64,11 @@ class Country < OpenStruct
       country['wordle_summary'].include? keyword
     end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }.
         sort { |a,b| a.slug <=> b.slug }
+  end
+  
+  def ad_keywords
+    keywords = [slug] + wordle_summary.sort { |a,b| b[1] <=> a[1] }.map { |w| w[0] }
+    keywords[0,5].join(';')
   end
   
   def commodities
