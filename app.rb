@@ -10,7 +10,8 @@ require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
 
 configure do
   FlickRaw.api_key = ENV['flickr_api_key']
-  $countries = JSON.parse(open('test.json').read)
+  $countries = JSON.parse(open('data/test.json').read)
+  $commodities_by_country = JSON.parse(open('data/commodities_by_country.json').read)
   $belgiums_max = $countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
 end
 p $belgiums_max
@@ -64,6 +65,11 @@ class Country < OpenStruct
       country['wordle_summary'].include? keyword
     end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }.
         sort { |a,b| a.slug <=> b.slug }
+  end
+  
+  def commodities
+    lookup = {}
+    $commodities_by_country[lookup[name] || name]
   end
   
   def wikipedia

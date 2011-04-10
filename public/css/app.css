@@ -2,6 +2,7 @@
 
 #panel { color: #fff;}
 #panel h1 { color: #fff; font-weight: bold; }
+#panel h2 { color: #fff; }
 #panel a { color: #fff; font-weight: bold; }
 #panel del { color: #fff; }
 
@@ -17,8 +18,11 @@
 #tagcloud a { color: #F5F524; font-weight: normal; text-decoration: none; }
 #tagcloud.container a { color: #111; }
 
-#amazon { position: fixed; top: 80px; right: 10px; }
+#amazon { position: fixed; top: 300px; right: 10px; }
 
 #belgiums { position: fixed; top: 10px; right: 10px; text-align: right; background: #fff; padding: 5px;}
 #belgiums .score { display: block; float: right; }
 #belgiums .score .bar { background: #fff url('/images/be.png') repeat-x; display: inline-block; }
+
+#commodities { margin-bottom: 0.5em; }
+#commodities a { text-decoration: none; }

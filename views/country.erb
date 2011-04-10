@@ -10,10 +10,19 @@
     <a href="<%= @country.wikipedia.url %>">Read more on Wikipedia</a>
   </p>
   
-  
   <div id="tagcloud">
     <%= tag_cloud(@country.wordle_summary) %>
   </div>
+  
+  <% if @country.commodities %>
+    <h2>You may not want to bring:</h2>
+    <ul id="commodities">
+      <% @country.commodities.each do |commodity| %>
+        <li><a href="http://online.businesslink.gov.uk/bdotg/action/tariffFilter?export=true&key.commodityCode=<%= commodity['id'] %>"><%= commodity['name'] %></li>
+      <% end %>
+    </ul>
+    <a href="/about/data#tariff">Find out more about this data</a>
+  <% end %>
 </div>
 
 <% if @country.belgiums.any? %>
@@ -24,6 +33,12 @@
     </span><br/>
     <%= sprintf "%.1f", @country.belgiums['__average__'].to_f %> belgiums
   </a>
+  <dl>
+    <% @country.belgiums.each do |key,score| %>
+      <dh><%= key %></dh>
+      <dd><%= score %></dd>
+    <% end %>
+  </dl>
 </div>
 <% end %>
 
