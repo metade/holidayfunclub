@@ -3,9 +3,8 @@
   <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
   
   <h1>Browse by Keyword</h1>
+  <div id="tagcloud">
+    <%= tag_cloud(@keywords) %>
+  </div>
 </div>
-
-<div id="tagcloud" class="container">
-  <%= tag_cloud(@keywords) %>
-</div>
-<img id="posterwall" src="/images/posterwall.png" style="width: 100%; left: 0px; ">
+<%= erb :poster_image, :locals => { :poster_image => @poster_image } %>

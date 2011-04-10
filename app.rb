@@ -162,6 +162,7 @@ end
 get '/keywords' do
   response['Cache-Control'] = "public, max-age=3600"
   @keywords = Country.keywords
+  @poster_image = flickr_image('keywords')
   erb :keywords
 end
 
