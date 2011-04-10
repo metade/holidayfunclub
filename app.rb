@@ -23,6 +23,7 @@ def flickr_image(tag)
     # :content_type => 1,
     # :sort => 'interestingness-desc',
     :per_page => 10)
+  photos = flickr.photos.search(:tags => tag, :per_page => 10) unless photos.any?
   if photos.any?
     photo = photos[(rand*photos.size).to_i]
     sizes = flickr.photos.getSizes(:photo_id => photo.id)
@@ -191,6 +192,7 @@ get '/categories/:category' do |category|
   response['Cache-Control'] = "public, max-age=3600"
   @category = category
   @countries = Country.find_by_category(category)
+  @poster_image = flickr_image(category)
   erb :category
 end
 
