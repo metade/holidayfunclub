@@ -1,4 +1,9 @@
 <div id="panel">
+  <ul id="navigation">
+    <li><a href="/explore">Explore</a></li>
+    <li><a href="/keywords">Keywords</a></li>
+    <li><a href="/countries/random">New country</a></li>
+  </ul>
   <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
   <h1>
     <%= @country.name %>
@@ -26,20 +31,18 @@
     </ul>
     <a href="/about/data#tariff">Find out more about this data</a>
   <% end %>
-  
-  <div class="random"><a href="/countries/random">Not inspired? Try another country</a></div>
 </div>
 
 <% if @country.belgiums.any? %>
 <div id="belgiums">
   <a href="/by/belgiums">
     <span class="score" style="width: <%= $belgiums_max*16 %>px;">
-      <span class="bar" style="width: <%= (@country.belgiums['__average__'].to_f / $belgiums_max)*100 %>%;">&nbsp;</span><br/>
+      <span class="bar" style="width: <%= (@country.normalised['__average__'].to_f / $belgiums_max)*100 %>%;">&nbsp;</span><br/>
     </span><br/>
-    <%= sprintf "%.1f", @country.belgiums['__average__'].to_f %> belgiums
+    <%= sprintf "%.1f", @country.normalised['__average__'].to_f %> belgiums
   </a>
   <dl>
-    <% @country.belgiums.each do |key,score| %>
+    <% @country.normalised.each do |key,score| %>
       <dt><%= key %></dt>
       <dd><%= score %></dd>
     <% end %>

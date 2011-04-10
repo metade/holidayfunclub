@@ -12,7 +12,7 @@ configure do
   FlickRaw.api_key = ENV['flickr_api_key']
   $countries = JSON.parse(open('data/test.json').read)
   $commodities_by_country = JSON.parse(open('data/commodities_by_country.json').read)
-  $belgiums_max = $countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
+  $belgiums_max = 5  #$countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
 end
 
 def flickr_image(tag)
@@ -54,7 +54,7 @@ class Country < OpenStruct
   end
   
   def self.order_by_belgiums
-    $countries.values.sort { |a,b| (b['belgiums']['__average__'] || 0) <=> (a['belgiums']['__average__'] || 0) }.
+    $countries.values.sort { |a,b| (b['normalised']['__average__'] || 0) <=> (a['belgiums']['__average__'] || 0) }.
       map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }
   end
   

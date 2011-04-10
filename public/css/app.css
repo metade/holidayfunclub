@@ -1,10 +1,15 @@
 #panel { background-color: rgba(0, 0, 0, 0.496094); margin-left: 20px; padding: 30px 15px 15px; width: 390px; }
 
-#panel { color: #fff;}
+#panel { color: #fff; padding-top: 10px; }
 #panel h1 { color: #fff; font-weight: bold; }
 #panel h2 { color: #fff; margin-bottom: 0.5em; }
 #panel a { color: #fff; font-weight: bold; }
 #panel del { color: #fff; }
+
+#panel #navigation { list-style:none; padding: 0px; width: 370px; display: block; text-align: center; height: 20px; margin-bottom: 5px;}
+#panel #navigation li { float: left; width: 123px; display: block;}
+#panel #navigation a { text-decoration: none; text-transform: uppercase; font-weight; normal; }
+#panel #navigation a:hover { color: #F5F524; }
 
 #panel .random { margin-top: 1em; width: 100%; text-align: right; }
 #panel .random a { text-decoration: none; text-transform: uppercase; }
@@ -23,7 +28,7 @@
 
 #amazon { position: fixed; top: 300px; right: 10px; }
 
-#belgiums { position: fixed; top: 10px; right: 10px; text-align: right; background: #fff; padding: 5px;}
+#belgiums { position: fixed; top: 10px; right: 10px; text-align: right; background: #fff; padding: 5px; width: 200px;}
 #belgiums .score { display: block; float: right; }
 #belgiums .score .bar { background: #fff url('/images/be.png') repeat-x; display: inline-block; }
 
