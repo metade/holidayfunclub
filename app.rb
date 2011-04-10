@@ -203,6 +203,7 @@ end
 get '/countries' do
   @category = '__average__'
   @countries = Country.find_by_category('__average__')
+  @poster_image = flickr_image('world map')
   erb :countries
 end
 
