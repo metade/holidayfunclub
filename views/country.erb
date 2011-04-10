@@ -1,6 +1,5 @@
 <div id="panel">
   <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
-  
   <h1>
     <%= @country.name %>
   </h1>
@@ -13,6 +12,7 @@
   <div id="tagcloud">
     <%= tag_cloud(@country.wordle_summary) %>
   </div>
+  <a href="<%= @country.url_advice_summary %>">See travel advice summary</a>
   
   <% if @country.commodities %>
     <h2>You may not want to bring:</h2>
@@ -23,6 +23,8 @@
     </ul>
     <a href="/about/data#tariff">Find out more about this data</a>
   <% end %>
+  
+  <div class="random"><a href="/countries/random">Not inspired? Try another country</a></div>
 </div>
 
 <% if @country.belgiums.any? %>

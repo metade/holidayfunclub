@@ -2,9 +2,12 @@
 
 #panel { color: #fff;}
 #panel h1 { color: #fff; font-weight: bold; }
-#panel h2 { color: #fff; }
+#panel h2 { color: #fff; margin-bottom: 0.5em; }
 #panel a { color: #fff; font-weight: bold; }
 #panel del { color: #fff; }
+
+#panel .random { margin-top: 1em; width: 100%; text-align: right; }
+#panel .random a { text-decoration: none; text-transform: uppercase; }
 
 #panel .siteTitle {  font-size: 20px; border-bottom: 3px solid white; margin-bottom: 1em; text-align: center; }
 #panel .siteTitle a { color: #fff; text-decoration: none; font-weight: normal; }
@@ -14,7 +17,7 @@
 #photoPanel { position: fixed; bottom: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.496094); padding: 2px 10px; }
 #photoPanel a { color: #fff; }
 
-#tagcloud { color: #fff; }
+#tagcloud { color: #fff; margin-bottom: 0.5em; }
 #tagcloud a { color: #F5F524; font-weight: normal; text-decoration: none; }
 #tagcloud.container a { color: #111; }
 
