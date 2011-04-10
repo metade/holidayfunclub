@@ -76,8 +76,9 @@ class Country < OpenStruct
     $countries.values.select do |country|
       next unless country['normalised']
       country['normalised'].include? category
-    end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }.
-        sort { |a,b| a.slug <=> b.slug }
+    end.
+      map { |c| Country.new(c) }.
+      sort { |a,b| b.normalised[category].to_f <=> a.normalised[category].to_f }
   end
   
   def ad_keywords
@@ -188,17 +189,22 @@ get '/categories/:category' do |category|
   response['Cache-Control'] = "public, max-age=3600"
   @category = category
   @countries = Country.find_by_category(category)
-  @poster_image = flickr_image(category)
   erb :category
+end
+
+get '/whatnottobring' do
+  
+end
+
+get '/countries' do
+  @category = '__average__'
+  @countries = Country.find_by_category('__average__')
+  erb :countries
 end
 
 get '/countries/random' do
   slug = $countries.keys[(rand*$countries.keys.size).to_i]
   redirect "/countries/#{slug}"
-end
-
-get '/whatnottobring' do
-  
 end
 
 get '/countries/:country' do |country|

@@ -1,9 +1,10 @@
 <div id="panel">
   <%= erb :_navigation %>
   <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
-  <h1><%= @category.titleize %></h1>
+  <h1>All Countries</h1>
   <%= erb :_social %>
 </div>
 
 <%= erb :_countries %>
+
 <%= erb :poster_image, :locals => { :poster_image => nil } %>

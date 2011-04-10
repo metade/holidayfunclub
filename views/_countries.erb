@@ -1,0 +1,24 @@
+<div id="countries" class="container">
+  <table>
+    <thead>
+      <tr>
+        <th>Country</th>
+        <th>Score</th>
+        <th>Belgiums</th>
+      </tr>
+    </thead>
+    <% @countries.each do |country| %>
+    <tr>
+      <td><a href="/countries/<%= country.slug %>"><%= country.name %></a></td>
+      <td><%= country.normalised[@category] %></td>
+      <td><%= country.belgiums[@category] %></td>
+    </tr>
+    <% end %>
+  </table>
+</div>
+<script type="text/javascript" src="/javascripts/jquery.tablesorter.min.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() { 
+  $("#countries table").tablesorter(); 
+});
+</script>
