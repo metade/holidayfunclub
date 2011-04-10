@@ -111,9 +111,13 @@ class Country < OpenStruct
   
   def weather
     return @weather if @weather
+    return nil if woeid.nil?
     client = YahooWeather::Client.new
     response = client.lookup_by_woeid(woeid, YahooWeather::Units::CELSIUS)
     @weather = response
+    rescue => e
+      puts "Error getting weather: #{e}"
+      nil
   end
   
   def poster_image
