@@ -147,6 +147,8 @@ end
 
 get '/' do
   response['Cache-Control'] = "public, max-age=3600"
+  slug = $countries.keys[(rand*$countries.keys.size).to_i]
+  @poster_image = flickr_image(slug)
   erb :index
 end
 

@@ -1,4 +1,4 @@
-<div id="countries" class="container">
+<div id="countries">
   <table>
     <thead>
       <tr>
@@ -10,8 +10,8 @@
     <% @countries.each do |country| %>
     <tr>
       <td><a href="/countries/<%= country.slug %>"><%= country.name %></a></td>
-      <td><%= country.normalised[@category] %></td>
-      <td><%= country.belgiums[@category] %></td>
+      <td><%= sprintf '%.3f', country.normalised[@category] %></td>
+      <td><%= sprintf '%.3f', (country.belgiums[@category] || 0) %></td>
     </tr>
     <% end %>
   </table>
