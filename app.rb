@@ -111,19 +111,23 @@ def tag_cloud(hash)
 end
 
 get '/' do
+  response['Cache-Control'] = "public, max-age=3600"
   erb :index
 end
 
 get '/explore' do
+  response['Cache-Control'] = "public, max-age=3600"
   erb :explore
 end
 
 get '/keywords' do
+  response['Cache-Control'] = "public, max-age=3600"
   @keywords = Country.keywords
   erb :keywords
 end
 
 get '/by/belgiums' do
+  response['Cache-Control'] = "public, max-age=3600"
   countries = Country.order_by_belgiums
   @top_belgiums = countries[0,10]
   @bottom_belgiums = countries.reverse[0,10]
@@ -131,6 +135,7 @@ get '/by/belgiums' do
 end
 
 get '/by/belgiums/:keyword' do |keyword|
+  response['Cache-Control'] = "public, max-age=3600"
   countries = Country.order_by_belgiums_keyword(keyword)
   @top_belgiums = countries[0,10]
   @bottom_belgiums = countries.reverse[0,10]
@@ -138,6 +143,7 @@ get '/by/belgiums/:keyword' do |keyword|
 end
 
 get '/keywords/:keyword' do |keyword|
+  response['Cache-Control'] = "public, max-age=3600"
   @keyword = keyword
   @countries = Country.find_by_keyword(keyword)
   @poster_image = flickr_image(keyword)
@@ -150,6 +156,7 @@ get '/countries/random' do
 end
 
 get '/countries/:country' do |country|
+  response['Cache-Control'] = "public, max-age=10"
   @country = Country.find_by_slug(country)
   @title = @country.name
   erb :country
