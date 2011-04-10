@@ -58,6 +58,11 @@ class Country < OpenStruct
       map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }
   end
   
+  def self.order_by_belgiums_keyword(keyword)
+    $countries.values.sort { |a,b| (b['belgiums'][keyword] || 0) <=> (a['belgiums'][keyword] || 0) }.
+      map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }
+  end
+  
   def self.find_by_keyword(keyword)
     $countries.values.select do |country|
       next unless country['wordle_summary']
@@ -120,6 +125,13 @@ end
 
 get '/by/belgiums' do
   countries = Country.order_by_belgiums
+  @top_belgiums = countries[0,10]
+  @bottom_belgiums = countries.reverse[0,10]
+  erb :belgiums
+end
+
+get '/by/belgiums/:keyword' do |keyword|
+  countries = Country.order_by_belgiums_keyword(keyword)
   @top_belgiums = countries[0,10]
   @bottom_belgiums = countries.reverse[0,10]
   erb :belgiums
