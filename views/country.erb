@@ -1,23 +1,13 @@
 <div id="panel">
   <%= erb :_navigation %>
   <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
-  <h1>
-    <%= @country.name %>
-  </h1>
+  <h1><%= @country.name %></h1>
   <p>
     <%= @country.wikipedia.abstract %> <br/>
     <a href="<%= @country.wikipedia.url %>">Read more on Wikipedia</a>
   </p>
   
-  <div id="social">
-    <div class="span-4">
-      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
-      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    </div>
-    <div class="span-4">
-      <iframe src="http://www.facebook.com/plugins/like.php?href=<%= URI.escape(request.url) %>&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
-    </div>
-  </div>
+  <%= erb :_social %>
   
   <div id="tagcloud">
     <%= tag_cloud(@country.wordle_summary) %>
@@ -48,10 +38,10 @@
 <div id="rating">
   <dl>
     <% @country.normalised.sort.each do |key,score| %>
-      <dt><%= key.gsub('__', '').gsub('_', ' ').titleize %></dt>
+      <dt><a href="/categories/<%= key %>"><%= key.gsub('__', '').gsub('_', ' ').titleize %></a></dt>
       <dd>
         <span class="score" style="width: <%= 5*16 %>px;">
-          <span class="bar" style="width: <%= @country.normalised[key].to_f*100 %>%;">&nbsp;</span><br/>
+          <span class="bar" title="<%= @country.normalised[key] %>" style="width: <%= @country.normalised[key].to_f*100 %>%;">&nbsp;</span><br/>
         </span>
       </dd>
     <% end %>

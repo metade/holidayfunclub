@@ -68,18 +68,30 @@ class Country < OpenStruct
     $countries.values.select do |country|
       next unless country['wordle_summary']
       country['wordle_summary'].include? keyword
+    end.map { |c| Country.new(c) }.
+        sort { |a,b| a.slug <=> b.slug }
+  end
+  
+  def self.find_by_category(category)
+    $countries.values.select do |country|
+      next unless country['normalised']
+      country['normalised'].include? category
     end.map { |c| Country.new(c.merge(:name => c['slug'].titleize)) }.
         sort { |a,b| a.slug <=> b.slug }
   end
   
   def ad_keywords
     keywords = [slug] + wordle_summary.sort { |a,b| b[1] <=> a[1] }.map { |w| w[0] }
-    keywords[0,5].join(';')
+    keywords.uniq[0,5].join(';')
   end
   
   def commodities
     lookup = {}
     $commodities_by_country[lookup[name] || name]
+  end
+  
+  def name
+    info['country']['name']
   end
   
   def wikipedia
@@ -170,6 +182,14 @@ get '/keywords/:keyword' do |keyword|
   @countries = Country.find_by_keyword(keyword)
   @poster_image = flickr_image(keyword)
   erb :keyword
+end
+
+get '/categories/:category' do |category|
+  response['Cache-Control'] = "public, max-age=3600"
+  @category = category
+  @countries = Country.find_by_category(category)
+  @poster_image = flickr_image(category)
+  erb :category
 end
 
 get '/countries/random' do
