@@ -24,5 +24,8 @@
 #belgiums .score { display: block; float: right; }
 #belgiums .score .bar { background: #fff url('/images/be.png') repeat-x; display: inline-block; }
 
+#belgiums dt { display: block; float: left; }
+#belgiums dd { display: block; }
+
 #commodities { margin-bottom: 0.5em; }
 #commodities a { text-decoration: none; }
