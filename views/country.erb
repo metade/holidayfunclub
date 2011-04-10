@@ -30,17 +30,15 @@
 </div>
 
 <% if @country.belgiums.any? %>
-<div id="belgiums">
-  <a href="/by/belgiums">
-    <span class="score" style="width: <%= $belgiums_max*16 %>px;">
-      <span class="bar" style="width: <%= (@country.normalised['__average__'].to_f / $belgiums_max)*100 %>%;">&nbsp;</span><br/>
-    </span><br/>
-    <%= sprintf "%.1f", @country.normalised['__average__'].to_f %> belgiums
-  </a>
+<div id="rating">
   <dl>
-    <% @country.normalised.each do |key,score| %>
+    <% @country.normalised.sort.each do |key,score| %>
       <dt><%= key %></dt>
-      <dd><%= score %></dd>
+      <dd>
+        <span class="score" style="width: <%= 5*16 %>px;">
+          <span class="bar" style="width: <%= @country.normalised[key].to_f*100 %>%;">&nbsp;</span><br/>
+        </span>
+      </dd>
     <% end %>
   </dl>
 </div>
