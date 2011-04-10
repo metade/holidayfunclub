@@ -39,7 +39,7 @@
 <div id="rating">
   <dl>
     <% @country.normalised.sort.each do |key,score| %>
-      <dt><%= key %></dt>
+      <dt><%= key.gsub('__', '').gsub('_', ' ').titleize %></dt>
       <dd>
         <span class="score" style="width: <%= 5*16 %>px;">
           <span class="bar" style="width: <%= @country.normalised[key].to_f*100 %>%;">&nbsp;</span><br/>

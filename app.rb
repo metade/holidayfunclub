@@ -111,10 +111,8 @@ class Country < OpenStruct
   
   def weather
     return @weather if @weather
-    
     client = YahooWeather::Client.new
-    response = client.lookup_by_woeid(woeid)
-    p response
+    response = client.lookup_by_woeid(woeid, YahooWeather::Units::CELSIUS)
     @weather = response
   end
   
