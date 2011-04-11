@@ -20,10 +20,12 @@ def flickr_image(tag)
   photos = flickr.photos.search(
     :tags => tag, 
     :is_commons => true, 
-    # :content_type => 1,
-    # :sort => 'interestingness-desc',
     :per_page => 10)
-  photos = flickr.photos.search(:tags => tag, :per_page => 10) unless photos.any?
+  photos = flickr.photos.search(
+    :tags => tag, 
+    :sort => 'interestingness-desc',
+    :license => 4,
+    :per_page => 10) unless photos.any?
   if photos.any?
     photo = photos[(rand*photos.size).to_i]
     sizes = flickr.photos.getSizes(:photo_id => photo.id)
@@ -70,7 +72,7 @@ class Country < OpenStruct
       next unless country['wordle_summary']
       country['wordle_summary'].include? keyword
     end.map { |c| Country.new(c) }.
-        sort { |a,b| a.slug <=> b.slug }
+        sort { |a,b| b.normalised['__average__'].to_f <=> a.normalised['__average__'].to_f }
   end
   
   def self.find_by_category(category)
@@ -162,8 +164,17 @@ end
 get '/keywords' do
   response['Cache-Control'] = "public, max-age=3600"
   @keywords = Country.keywords
-  @poster_image = flickr_image('keywords')
+  @poster_image = flickr_image('words')
   erb :keywords
+end
+
+get '/keywords/:keyword' do |keyword|
+  response['Cache-Control'] = "public, max-age=3600"
+  @keyword = keyword
+  @category = '__average__'
+  @countries = Country.find_by_keyword(keyword)
+  @poster_image = flickr_image(keyword)
+  erb :keyword
 end
 
 get '/by/belgiums' do
@@ -180,14 +191,6 @@ get '/by/belgiums/:keyword' do |keyword|
   @top_belgiums = countries[0,10]
   @bottom_belgiums = countries.reverse[0,10]
   erb :belgiums
-end
-
-get '/keywords/:keyword' do |keyword|
-  response['Cache-Control'] = "public, max-age=3600"
-  @keyword = keyword
-  @countries = Country.find_by_keyword(keyword)
-  @poster_image = flickr_image(keyword)
-  erb :keyword
 end
 
 get '/categories/:category' do |category|

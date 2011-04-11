@@ -10,7 +10,7 @@
     <% @countries.each do |country| %>
     <tr>
       <td><a href="/countries/<%= country.slug %>"><%= country.name %></a></td>
-      <td><%= sprintf '%.3f', country.normalised[@category] %></td>
+      <td><%= sprintf '%.3f', (country.normalised[@category] || 0) %></td>
       <td><%= sprintf '%.3f', (country.belgiums[@category] || 0) %></td>
     </tr>
     <% end %>
