@@ -16,28 +16,54 @@ configure do
   $belgiums_max = 5  #$countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
 end
 
-def flickr_image(tag)
-  photos = flickr.photos.search(
-    :tags => tag, 
-    :is_commons => true, 
-    :per_page => 10)
-  photos = flickr.photos.search(
-    :tags => tag, 
-    :sort => 'interestingness-desc',
-    :license => 4,
-    :per_page => 10) unless photos.any?
-  if photos.any?
-    photo = photos[(rand*photos.size).to_i]
-    sizes = flickr.photos.getSizes(:photo_id => photo.id)
-    sizes_in_order = sizes.sort { |a,b| a['width'].to_i <=> b['width'].to_i }
-    largest = sizes_in_order.detect { |s| s['width'].to_i >= 1024 }
-    largest ||= sizes_in_order.last
-    poster_image = OpenStruct.new(photo.to_hash)
-    poster_image.url = "http://www.flickr.com/photos/#{poster_image.owner}/#{photo.id}/"
-    poster_image.image_url = largest['source']
-    poster_image
-  else
-    nil
+class PosterImage < OpenStruct
+  def self.find(id)
+    photos = [flickr.photos.getInfo(:photo_id => id)]
+    select_appropriate_size(photos)
+  end
+  
+  def self.find_by_text(text)
+    photos = flickr.photos.search(
+      :text => text, 
+      :is_commons => true,
+      :sort => 'relevance-desc', 
+      :per_page => 10)
+    photos = flickr.photos.search(
+      :text => text, 
+      :sort => 'relevance-desc', 
+      :license => 4,
+      :per_page => 10) unless photos.any?
+    select_appropriate_size(photos)
+  end
+  
+  def self.find_by_tag(tag)
+    photos = flickr.photos.search(
+      :tags => tag, 
+      :is_commons => true, 
+      :per_page => 10)
+    photos = flickr.photos.search(
+      :tags => tag, 
+      :sort => 'interestingness-desc',
+      :license => 4,
+      :per_page => 10) unless photos.any?
+    select_appropriate_size(photos)
+  end
+  
+  protected
+  def self.select_appropriate_size(photos)
+    if photos.any?
+      photo = photos[(rand*photos.size).to_i]
+      sizes = flickr.photos.getSizes(:photo_id => photo.id)
+      sizes_in_order = sizes.sort { |a,b| a['width'].to_i <=> b['width'].to_i }
+      largest = sizes_in_order.detect { |s| s['width'].to_i >= 1024 }
+      largest ||= sizes_in_order.last
+      poster_image = OpenStruct.new(photo.to_hash)
+      poster_image.url = "http://www.flickr.com/photos/#{poster_image.owner}/#{photo.id}/"
+      poster_image.image_url = largest['source']
+      poster_image
+    else
+      nil
+    end
   end
 end
 
@@ -139,7 +165,7 @@ class Country < OpenStruct
   end
   
   def poster_image
-    @poster_image ||= flickr_image(name)
+    @poster_image ||= PosterImage.find_by_tag(name)
   end
 end
 
@@ -153,20 +179,30 @@ end
 get '/' do
   response['Cache-Control'] = "public, max-age=3600"
   slug = $countries.keys[(rand*$countries.keys.size).to_i]
-  @poster_image = flickr_image(slug)
+  @poster_image = PosterImage.find_by_tag(slug)
   erb :index
+end
+
+get '/about' do
+  @poster_image = PosterImage.find_by_tag('travel')
+  erb :about
+end
+
+get '/about/team' do
+  @poster_image = PosterImage.find(5605893782)
+  erb :about_team
 end
 
 get '/explore' do
   response['Cache-Control'] = "public, max-age=3600"
-  @poster_image = flickr_image('explore')
+  @poster_image = PosterImage.find_by_tag('explore')
   erb :explore, :layout => false
 end
 
 get '/keywords' do
   response['Cache-Control'] = "public, max-age=3600"
   @keywords = Country.keywords
-  @poster_image = flickr_image('words')
+  @poster_image = PosterImage.find_by_tag('words')
   erb :keywords
 end
 
@@ -175,7 +211,7 @@ get '/keywords/:keyword' do |keyword|
   @keyword = keyword
   @category = '__average__'
   @countries = Country.find_by_keyword(keyword)
-  @poster_image = flickr_image(keyword)
+  @poster_image = PosterImage.find_by_tag(keyword)
   erb :keyword
 end
 
@@ -199,7 +235,7 @@ get '/categories/:category' do |category|
   response['Cache-Control'] = "public, max-age=3600"
   @category = category
   @countries = Country.find_by_category(category)
-  @poster_image = flickr_image(category)
+  @poster_image = PosterImage.find_by_tag(category)
   erb :category
 end
 
@@ -210,7 +246,7 @@ end
 get '/countries' do
   @category = '__average__'
   @countries = Country.find_by_category('__average__')
-  @poster_image = flickr_image('world map')
+  @poster_image = PosterImage.find_by_tag('world map')
   erb :countries
 end
 

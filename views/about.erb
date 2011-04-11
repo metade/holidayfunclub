@@ -1,0 +1,19 @@
+<div id="panel">
+  <%= erb :_navigation %>
+  <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
+  <h1>About</h1>
+  <%= erb :_social %>
+  
+  <p>The journalist Christopher Hitchens once stated a personal goal of visiting one difficult country per year, to better understand the world; our goals are:</p>
+  <ul>
+    <li>to use the FCO travel advice database to help travellers identify the most difficult countries in the world, to help them plan their visit</li>
+    <li>to investigate FCO perception and presentation of other countries, by means of applying brute-force metrics to their publications.</li>
+  </ul>
+  
+  <p>We've selected Belgium as our metric of a relatively <del>boring</del> stable country, and measure all other countries against it, in terms of whatever scores either one achieves in the categories of crime, corruption, terrorism, disease, fierce creatures, natural disasters and so forth...</p>
+  
+  <p><a href="/about/team">Made by Alec, Francisco, Patrick at the Linked Gov Hack Day 2011</a></p>
+</div>
+<%= erb :poster_image, :locals => { :poster_image => @poster_image } %>
+
+

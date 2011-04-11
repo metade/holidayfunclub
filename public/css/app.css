@@ -7,7 +7,7 @@
 #panel del { color: #fff; }
 
 #panel #navigation { list-style:none; padding: 0px; width: 370px; display: block; text-align: center; height: 20px; margin-bottom: 5px;}
-#panel #navigation li { float: left; width: 90px; display: block;}
+#panel #navigation li { float: left; padding-right: 19px; display: block;}
 #panel #navigation a { text-decoration: none; text-transform: uppercase; font-weight; normal; }
 #panel #navigation a:hover { color: #F5F524; }
 

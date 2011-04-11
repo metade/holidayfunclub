@@ -1,0 +1,16 @@
+<div id="panel">
+  <%= erb :_navigation %>
+  <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
+  <h1>About the team</h1>
+  <%= erb :_social %>
+  
+  <p>Made by</p>
+  <ul>
+    <li><a href="http://www.alecmuffett.com/">Alec Muffett</a> (<a href="http://twitter.com/alecmuffett">@alecmuffett</a>)</li>
+    <li><a href="http://www.tomboa.net/">Francisco Baptista</a> (<a href="http://twitter.com/tomboa">@tomboa</a>)</li>
+    <li><a href="http://www.metade.org/">Patrick Sinclair</a> (<a href="http://twitter.com/metade">@metade</a>)</li>
+  </ul>
+  
+  <p>at <a href="http://linkedgov.hackcamp.org.uk">LinkedGov HackCamp 2011</a>, 9-10 April 2011.</p>
+</div>
+<%= erb :poster_image, :locals => { :poster_image => @poster_image } %>
