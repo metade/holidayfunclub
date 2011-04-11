@@ -29,7 +29,9 @@ def flickr_image(tag)
   if photos.any?
     photo = photos[(rand*photos.size).to_i]
     sizes = flickr.photos.getSizes(:photo_id => photo.id)
-    largest = sizes.sort { |a,b| b['width'].to_i <=> a['width'].to_i }.first
+    sizes_in_order = sizes.sort { |a,b| a['width'].to_i <=> b['width'].to_i }
+    largest = sizes_in_order.detect { |s| s['width'].to_i >= 1024 }
+    largest ||= sizes_in_order.last
     poster_image = OpenStruct.new(photo.to_hash)
     poster_image.url = "http://www.flickr.com/photos/#{poster_image.owner}/#{photo.id}/"
     poster_image.image_url = largest['source']
