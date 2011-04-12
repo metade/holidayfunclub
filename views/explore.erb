@@ -1,124 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Holiday Fun Club<%= " - #{@title}" if @title %></title>
-  <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
-  <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-  <link rel="stylesheet" href="/css/app.css" type="text/css" />
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-  
-  <script type="text/javascript">
+<div id="panel">
+  <%= erb :_navigation %>
+  <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
+  <h1>Explore</h1>
+  <%= erb :_social %>
+</div>
+<div id="thediv" style="width:800px; height:450px;"></div>
+<%= erb :poster_image, :locals => { :poster_image => @poster_image } %>
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-22636692-1']);
-    _gaq.push(['_trackPageview']);
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="DrasticTreemapGApi.js"></script>
+<script type="text/javascript">
+	google.load("visualization", "1");
+	google.load("swfobject", "2.2");
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+	// Set callback to run when API is loaded
+	google.setOnLoadCallback(drawVisualization); 
 
-  </script>
-  
-  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-  <script type="text/javascript" src="DrasticTreemapGApi.js"></script>
-  <script type="text/javascript">
-  	google.load("visualization", "1");
-  	google.load("swfobject", "2.2");
+	// Called when the Visualization API is loaded.
+	function drawVisualization() {
 
-  	// Set callback to run when API is loaded
-  	google.setOnLoadCallback(drawVisualization); 
+	// Create and populate a data table.
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Product');
+	data.addColumn('string', 'Type');
 
-  	// Called when the Visualization API is loaded.
-  	function drawVisualization() {
+	data.addColumn('number', 'FCO Advice');
+	data.addColumn('number', 'Natural Disaster');
+	data.addColumn('number', 'Crime');
 
-  	// Create and populate a data table.
-  	var data = new google.visualization.DataTable();
-  	data.addColumn('string', 'Product');
-  	data.addColumn('string', 'Type');
+        data.addRows([
+        ['algeria', 'africa',10, 3, 12],
+                    ['canada', 'ameria',0, 3, 0],
+                    ['portugal', 'europe',0, 0, 6],
+                    ['south-korea', 'asia',0, 0, 0],
+                    ['japan', 'asia',0, 35, 2],
+                    ['france', 'europe',0, 0, 2],
+                    ['poland', 'europe',0, 0, 1],
+                    ['mexico', 'ameria',15, 11, 24],
+                    ['india', 'asia',5, 2, 11],
+                    ['thailand', 'asia',25, 12, 5],
+                    ['united-states', 'ameria',0, 4, 0],
+                    ['australia', 'australia',0, 12, 2],
+                    ['spain', 'europe',0, 0, 4],
+                    ['italy', 'europe',0, 5, 3],
+                    ['germany', 'europe',0, 0, 0],
+                    ['brazil', 'ameria',0, 17, 5],
+                    ['benin', 'africa',5, 2, 1],
+                    ['south-africa', 'africa',5, 1, 21],
+                    ['china', 'asia',0, 19, 3],
+                    ['north-korea', 'asia',0, 1, 4],
+                    ['angola', 'africa',5, 0, 20],
+                    ['uganda', 'africa',0, 0, 3],
+                            ]);
 
-  	data.addColumn('number', 'FCO Advice');
-  	data.addColumn('number', 'Natural Disaster');
-  	data.addColumn('number', 'Crime');
+        /*
+        data.addRows([
+	  ['Japan', 'Asia', 10, 100, 400, 400],
+	  ['China', 'Asia', 50, 400, 300, 400],
+	  ['India', 'Asia', 200, 400, 500, 400],
+	  ['Korea', 'Asia', 500, 1000, 700, 700],
+	  ['South Korea', 'Asia', 500, 1000, 700, 700],
 
-          data.addRows([
-          ['algeria', 'africa',10, 3, 12],
-                      ['canada', 'ameria',0, 3, 0],
-                      ['portugal', 'europe',0, 0, 6],
-                      ['south-korea', 'asia',0, 0, 0],
-                      ['japan', 'asia',0, 35, 2],
-                      ['france', 'europe',0, 0, 2],
-                      ['poland', 'europe',0, 0, 1],
-                      ['mexico', 'ameria',15, 11, 24],
-                      ['india', 'asia',5, 2, 11],
-                      ['thailand', 'asia',25, 12, 5],
-                      ['united-states', 'ameria',0, 4, 0],
-                      ['australia', 'australia',0, 12, 2],
-                      ['spain', 'europe',0, 0, 4],
-                      ['italy', 'europe',0, 5, 3],
-                      ['germany', 'europe',0, 0, 0],
-                      ['brazil', 'ameria',0, 17, 5],
-                      ['benin', 'africa',5, 2, 1],
-                      ['south-africa', 'africa',5, 1, 21],
-                      ['china', 'asia',0, 19, 3],
-                      ['north-korea', 'asia',0, 1, 4],
-                      ['angola', 'africa',5, 0, 20],
-                      ['uganda', 'africa',0, 0, 3],
-                              ]);
+	  ['USA', 'America', 700, 300, 200, 200],
+	  ['Canada', 'America', 800, 700, 600, 200],
+	  ['Mexico', 'America', 200, 300, 100, 200],
+	  ['Jamaica', 'America', 100, 150, 500, 40],
+	  ['Peru', 'America', 100, 150, 500, 40],
 
-          /*
-          data.addRows([
-  	  ['Japan', 'Asia', 10, 100, 400, 400],
-  	  ['China', 'Asia', 50, 400, 300, 400],
-  	  ['India', 'Asia', 200, 400, 500, 400],
-  	  ['Korea', 'Asia', 500, 1000, 700, 700],
-  	  ['South Korea', 'Asia', 500, 1000, 700, 700],
+          ['Angola', 'Africa', 800, 1000, 900, 500],
+	  ['Senagal', 'Africa', 250, 100, 300, 50],
+	  ['Uganda', 'Africa', 120, 300, 200, 100],
+	  ['Burundi', 'Africa', 50, 300, 200, 50],
+	  ['South Africa', 'Africa', 50, 300, 200, 50],
 
-  	  ['USA', 'America', 700, 300, 200, 200],
-  	  ['Canada', 'America', 800, 700, 600, 200],
-  	  ['Mexico', 'America', 200, 300, 100, 200],
-  	  ['Jamaica', 'America', 100, 150, 500, 40],
-  	  ['Peru', 'America', 100, 150, 500, 40],
+	  ['Portugal', 'Europe', 200, 300, 400, 500],
+	  ['France', 'Europe', 400, 600, 200, 500],
+	  ['England', 'Europe', 500, 200, 300, 500]
+	]);
+         */
 
-            ['Angola', 'Africa', 800, 1000, 900, 500],
-  	  ['Senagal', 'Africa', 250, 100, 300, 50],
-  	  ['Uganda', 'Africa', 120, 300, 200, 100],
-  	  ['Burundi', 'Africa', 50, 300, 200, 50],
-  	  ['South Africa', 'Africa', 50, 300, 200, 50],
+	// Instantiate our object.
+	var vis = new drasticdata.DrasticTreemap(document.getElementById('thediv'));
 
-  	  ['Portugal', 'Europe', 200, 300, 400, 500],
-  	  ['France', 'Europe', 400, 600, 200, 500],
-  	  ['England', 'Europe', 500, 200, 300, 500]
-  	]);
-           */
-
-  	// Instantiate our object.
-  	var vis = new drasticdata.DrasticTreemap(document.getElementById('thediv'));
-
-  	// Draw the treemap with the data we created locally and some options:
-  	vis.draw(data, {
-  		groupbycol: "Type",
-  		labelcol: "Product",
-  		variables: ['Terrorism', 'Disease', 'War']
-  		}
-  	);
-     }
-      </script>
-</head>
-<body>
-  <div class="container">
-    <div id="content" style="text-align:center;">
-      <div id="panel">
-        <%= erb :_navigation %>
-        <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>
-        <h1>Explore</h1>
-        <%= erb :_social %>
-      </div>
-      <div id="thediv" style="width:800px; height:450px;"></div>
-      <%= erb :poster_image, :locals => { :poster_image => @poster_image } %>
-    </div>
-  </div>  
-</body>
-</html>
+	// Draw the treemap with the data we created locally and some options:
+	vis.draw(data, {
+		groupbycol: "Type",
+		labelcol: "Product",
+		variables: ['Terrorism', 'Disease', 'War']
+		}
+	);
+   }
+</script>

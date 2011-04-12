@@ -13,7 +13,6 @@ configure do
   FlickRaw.api_key = ENV['flickr_api_key']
   $countries = JSON.parse(open('data/test.json').read)
   $commodities_by_country = JSON.parse(open('data/commodities_by_country.json').read)
-  $belgiums_max = 5  #$countries.values.map { |c| c['belgiums']['__average__'].to_f || 0 }.max.ceil
 end
 
 def tag_cloud(hash)
@@ -43,7 +42,7 @@ end
 get '/explore' do
   response['Cache-Control'] = "public, max-age=3600"
   @poster_image = PosterImage.find_by_tag('explore')
-  erb :explore, :layout => false
+  erb :explore
 end
 
 get '/keywords' do
