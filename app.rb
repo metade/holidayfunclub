@@ -62,32 +62,12 @@ get '/keywords/:keyword' do |keyword|
   erb :keyword
 end
 
-get '/by/belgiums' do
-  response['Cache-Control'] = "public, max-age=3600"
-  countries = Country.order_by_belgiums
-  @top_belgiums = countries[0,10]
-  @bottom_belgiums = countries.reverse[0,10]
-  erb :belgiums
-end
-
-get '/by/belgiums/:keyword' do |keyword|
-  response['Cache-Control'] = "public, max-age=3600"
-  countries = Country.order_by_belgiums_keyword(keyword)
-  @top_belgiums = countries[0,10]
-  @bottom_belgiums = countries.reverse[0,10]
-  erb :belgiums
-end
-
 get '/categories/:category' do |category|
   response['Cache-Control'] = "public, max-age=3600"
   @category = category
   @countries = Country.find_by_category(category)
   @poster_image = PosterImage.find_by_tag(category)
   erb :category
-end
-
-get '/whatnottobring' do
-  
 end
 
 get '/countries' do
