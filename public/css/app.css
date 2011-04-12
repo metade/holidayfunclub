@@ -19,7 +19,7 @@
 
 #posterwall { width: 100%; left: 0px; position: fixed; top: 0px; z-index: -1; }
 
-#photoPanel { position: fixed; bottom: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.496094); padding: 2px 10px; }
+#photoPanel { position: fixed; bottom: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.496094); padding: 2px 10px; max-width: 250px; }
 #photoPanel a { color: #fff; }
 
 #tagcloud { color: #fff; margin-bottom: 0.5em; }
@@ -39,7 +39,7 @@
 #commodities a { text-decoration: none; }
 
 #social { width: 370px; height: 30px; }
-#social iframe { float: left; }
+#social iframe { float: left; max-width: 200px; }
 
 #quote { margin-bottom: 1em; }
 
