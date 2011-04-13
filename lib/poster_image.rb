@@ -43,7 +43,8 @@ class PosterImage < OpenStruct
       largest = sizes_in_order.detect { |s| s['width'].to_i >= 1024 }
       largest ||= sizes_in_order.last
       poster_image = OpenStruct.new(photo.to_hash)
-      poster_image.url = "http://www.flickr.com/photos/#{poster_image.owner}/#{photo.id}/"
+      owner = (poster_image.owner.kind_of? String) ? poster_image.owner : poster_image.owner['nsid']
+      poster_image.url = "http://www.flickr.com/photos/#{owner}/#{photo.id}/"
       poster_image.image_url = largest['source']
       poster_image
     else
