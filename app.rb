@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/content_for'
 require 'open-uri'
 require 'json'
 require 'nokogiri'
@@ -84,6 +85,5 @@ end
 get '/countries/:country' do |country|
   response['Cache-Control'] = "public, max-age=10"
   @country = Country.find_by_slug(country)
-  @title = @country.name
   erb :country
 end

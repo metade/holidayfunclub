@@ -1,3 +1,8 @@
+<% content_for :metadata do %>
+  <title>Holiday Fun Club - <%= @category.titleize %></title>
+  <meta name="description" content="All countries ranked by '<%= @category.titleize %>'" />
+<% end %>
+
 <div id="panel">
   <%= erb :_navigation %>
   <div class="siteTitle"><a href="/">The Christopher Hitchens Holiday Fun Club</a></div>

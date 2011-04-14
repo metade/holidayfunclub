@@ -41,7 +41,8 @@
 #social { width: 370px; height: 30px; }
 #social iframe { float: left; max-width: 200px; }
 
-#quote { margin-bottom: 1em; }
+blockquote { color: #eee; }
+#quote { margin-bottom: 1em; display: block; }
 
 thead th { background: #fff; color: #000; }
 tbody tr:nth-child(even) td, tbody tr.even td { background: #bbb; color: #000; }

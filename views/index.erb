@@ -1,10 +1,14 @@
+<% content_for :metadata do %>
+  <title>Holiday Fun Club</title>
+  <meta name="description" content="The Christopher Hitchens Holiday Fun Club - making it easy to find difficult countries to visit" />
+<% end %>
+
 <div id="panel">
   <%= erb :_navigation %>
   <h1>The Christopher Hitchens Holiday Fun Club</h1>
-  <div id="quote">
-    <quote>"He also travels the world to report on foreign affairs and tries to visit at least one <del>fucked-up</del> 'difficult' country a year, often at his own expense."</quote>
-    <a href="http://www.guardian.co.uk/books/2002/apr/14/politics">The Guardian</a>
-  </div>
+  <blockquote cite="http://www.guardian.co.uk/books/2002/apr/14/politics">"[Christopher Hitchens] also travels the world to report on foreign affairs and tries to visit at least one <del>fucked-up</del> 'difficult' country a year, often at his own expense."
+    <a href="http://www.guardian.co.uk/books/2002/apr/14/politics" class="right">The Guardian</a>
+  </blockquote>
   <%= erb :_social %>
   
   <div class="start"><a href="/countries/random">Start</a></div>
