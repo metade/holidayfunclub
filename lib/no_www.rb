@@ -8,6 +8,8 @@ class NoWww
     
     if request.host =~ /^www\./
       [301, {"Location" => request.url.sub("//www.", "//")}, self]
+    elsif request.host =~ /heroku\.com$/
+      [301, {"Location" => request.url.sub("heroku\.com/", ".com/")}, self]
     else
       @app.call(env)
     end
