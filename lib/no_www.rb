@@ -6,7 +6,7 @@ class NoWww
   def call(env)
     request = Rack::Request.new(env)
     
-    if request.host.starts_with?("www.")
+    if request.host =~ /^www\./
       [301, {"Location" => request.url.sub("//www.", "//")}, self]
     else
       @app.call(env)
