@@ -4,7 +4,7 @@ require 'open-uri'
 require 'json'
 require 'nokogiri'
 require 'active_support/inflector'
-require 'yahoo-weather'
+# require 'yahoo-weather'
 
 require File.join(File.dirname(__FILE__), 'lib', 'country')
 require File.join(File.dirname(__FILE__), 'lib', 'tag_cloud')
@@ -12,6 +12,8 @@ require File.join(File.dirname(__FILE__), 'lib', 'poster_image')
 
 configure do
   FlickRaw.api_key = ENV['flickr_api_key']
+  FlickRaw.shared_secret = ENV['flickr_shared_secret']
+
   $countries = JSON.parse(open('data/test.json').read)
   $commodities_by_country = JSON.parse(open('data/commodities_by_country.json').read)
 end
